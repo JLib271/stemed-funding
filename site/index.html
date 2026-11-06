@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STEMEd+ Funding</title>
+<meta name="description" content="Open calls and deadlines for STEM+ education research and practice: federal agencies, foundations, professional societies, and state programs, in one place.">
+<link rel="alternate" type="application/rss+xml" title="Newly listed funding" href="feeds/new.xml">
+<style>
+  :root { --ink:#1d2433; --muted:#5b6475; --line:#dde2ea; --bg:#f7f8fa; --card:#fff; --accent:#1f5f8b; --soft:#e6f0f7; --softline:#c9dcea;
+          --soon:#a3261b; --soonbg:#fdecea; --mid:#7a4f00; --midbg:#fdf3dc; --ok:#1f6b3a; --okbg:#e7f4ec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  header { background: var(--card); border-bottom: 1px solid var(--line); }
+  header .wrap { padding-top: 26px; padding-bottom: 20px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); max-width: 72ch; }
+  .links { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .btn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+  .btn.secondary { background: var(--card); color: var(--accent); border: 1px solid var(--accent); }
+  a { color: var(--accent); }
+  .soon { background: var(--soft); border-bottom: 1px solid var(--softline); }
+  .soon .wrap { padding-top: 18px; padding-bottom: 18px; }
+  .soon h2 { font-size: 1.05rem; margin: 0 0 10px; }
+  .strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .strip .c { background: var(--card); border: 1px solid var(--softline); border-radius: 8px; padding: 10px 12px; font-size: .92rem; }
+  .strip .c a { font-weight: 600; text-decoration: none; } .strip .c a:hover { text-decoration: underline; }
+  .strip .c .m { color: var(--muted); font-size: .82rem; margin-top: 3px; }
+  .controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0 8px; }
+  .controls .search { grid-column: span 2; }
+  label { display: block; font-size: .8rem; font-weight: 600; color: var(--muted); margin-bottom: 4px; }
+  input, select { width: 100%; padding: 9px 10px; font: inherit; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); }
+  input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin: 6px 0 12px; }
+  #count { color: var(--muted); font-size: .9rem; margin: 0; }
+  .bar .r { display: flex; gap: 10px; align-items: center; font-size: .9rem; }
+  .bar .r select { width: auto; padding: 5px 8px; }
+  button.link { font: inherit; font-size: .9rem; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; }
+  ol#list { list-style: none; margin: 0; padding: 0; }
+  ol#list li { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 8px; }
+  .t { font-weight: 600; font-size: 1.04rem; text-decoration: none; } .t:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: .88rem; margin-top: 2px; }
+  .due { display: inline-block; margin-top: 8px; font-size: .88rem; font-weight: 600; padding: 3px 10px; border-radius: 6px; background: #eef0f3; }
+  .due.soon { background: var(--soonbg); color: var(--soon); } .due.mid { background: var(--midbg); color: var(--mid); } .due.ok { background: var(--okbg); color: var(--ok); }
+  .note { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+  .sum { margin: 8px 0 0; font-size: .94rem; }
+  dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 8px 0 0; font-size: .9rem; }
+  dl.facts dt { color: var(--muted); font-weight: 600; } dl.facts dd { margin: 0; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center; }
+  .tag { font-size: .75rem; padding: 2px 8px; border-radius: 999px; background: #eef0f3; color: var(--ink); font-weight: 600; }
+  .tag.st { background: var(--soft); color: var(--accent); }
+  .tag.k { background: #fff; border: 1px solid var(--line); color: var(--muted); font-weight: 500; }
+  .acts { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; font-size: .88rem; }
+  .acts a, .acts button { color: var(--accent); }
+  .acts button { font: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; }
+  .more { text-align: center; margin: 14px 0 30px; }
+  .more button { font: inherit; padding: 8px 16px; border-radius: 6px; border: 1px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; }
+  .empty { padding: 26px; text-align: center; color: var(--muted); }
+  .disclaimer { font-size: .85rem; color: var(--muted); margin: 0 0 10px; }
+  .warn { font-size: .85rem; color: #8a5a00; margin: 0 0 8px; }
+  footer { background: var(--card); border-top: 1px solid var(--line); padding: 20px 0 30px; font-size: .9rem; color: var(--muted); }
+  footer h2 { font-size: 1rem; color: var(--ink); margin: 18px 0 6px; } footer h2:first-child { margin-top: 0; }
+  footer ul { margin: 6px 0 12px; padding-left: 18px; }
+  footer details { margin: 0 0 12px; } footer summary { cursor: pointer; color: var(--accent); }
+  code { background: #eef0f3; padding: 1px 5px; border-radius: 4px; font-size: .85em; word-break: break-all; }
+  .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  @media (max-width: 860px) { .controls { grid-template-columns: 1fr 1fr; } .controls .search { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1 id="title">STEMEd+ Funding</h1>
+    <p id="tagline"></p>
+    <div class="links">
+      <a class="btn" href="#calendar">Deadline calendar</a>
+      <a class="btn secondary" href="feeds/new.xml">New listings (RSS)</a>
+      <a class="btn secondary" id="suggest" href="#">Suggest an opportunity</a>
+    </div>
+  </div>
+</header>
+<section class="soon" aria-labelledby="soon-h">
+  <div class="wrap">
+    <h2 id="soon-h">Closing in the next 30 days</h2>
+    <div id="strip" class="strip"></div>
+  </div>
+</section>
+<main class="wrap">
+  <div class="controls" role="search">
+    <div class="search"><label for="q">Search</label><input id="q" type="search" placeholder="Program, funder, or topic" autocomplete="off"></div>
+    <div><label for="type">Funder type</label><select id="type"><option value="">All</option></select></div>
+    <div><label for="sponsor">Funder</label><select id="sponsor"><option value="">All</option></select></div>
+    <div><label for="discipline">Discipline</label><select id="discipline"><option value="">All</option></select></div>
+    <div><label for="kind">What it funds</label><select id="kind"><option value="">All</option></select></div>
+    <div><label for="status">Status</label><select id="status">
+      <option value="active" selected>Open, forecast, or rolling</option>
+      <option value="dated">Has an upcoming deadline</option>
+      <option value="">All, including between cycles</option>
+    </select></div>
+    <div><label for="within">Deadline within</label><select id="within">
+      <option value="">Any time</option><option value="30">30 days</option><option value="60">60 days</option>
+      <option value="90">90 days</option><option value="180">6 months</option><option value="365">12 months</option>
+    </select></div>
+  </div>
+  <div class="bar">
+    <p id="count" aria-live="polite"></p>
+    <div class="r">
+      <label for="sort" style="margin:0">Sort</label>
+      <select id="sort"><option value="deadline">Deadline, soonest first</option><option value="new">Newly listed</option></select>
+      <button type="button" class="link" id="share">Copy link to this view</button>
+    </div>
+  </div>
+  <p id="warn" class="warn" hidden></p>
+  <p class="disclaimer">Deadlines and rules change. Always confirm details on the funder's own page before you apply.</p>
+  <ol id="list"></ol>
+  <div class="more"><button id="more" type="button" hidden>Show more</button></div>
+</main>
+<footer>
+  <div class="wrap">
+    <h2 id="calendar">Deadline calendar</h2>
+    <p>Subscribe to every dated deadline in Google Calendar, Outlook, or Apple Calendar with this address (choose "add calendar from URL"):</p>
+    <p><code id="icsurl"></code> <button type="button" class="link" id="copyics">Copy</button></p>
+    <p>Each listing with a deadline also has an "Add to calendar" link for just that deadline.</p>
+    <h2>Where the listings come from</h2>
+    <p><strong>Federal:</strong> <span id="fedcount"></span> calls from <a href="https://www.grants.gov/">Grants.gov</a>, where NSF, NIH, USDA, NOAA, NASA, the Department of Education, and other agencies post their calls. They are found by keyword and kept by title, so a call can be missed or, less often, listed when it is not about education. Checked every day.</p>
+    <p><strong>Foundations, societies, and state programs:</strong> <span id="curcount"></span> programs kept by hand, each checked against the funder's page on the date shown. Programs between cycles stay listed so you know what is coming.</p>
+    <p>Disciplines use the same ten categories as STEMEd+ Jobs and the STEMEd+ Digest. Programs open to all STEM+ fields appear under every discipline. For federal calls, disciplines come from the title and "What it funds" is matched automatically, so treat both as a guide.</p>
+    <h2>Add or correct a listing</h2>
+    <p>Know a program we are missing, or see something out of date? <a id="suggest2" href="#">Suggest an opportunity</a> or <a id="update" href="#">report a correction</a> on GitHub, or <a id="mail" href="#">email the maintainer</a>.</p>
+    <h2>RSS</h2>
+    <p><a href="feeds/new.xml">Newly listed opportunities</a>, for feed readers.</p>
+    <h2>More STEMEd+</h2>
+    <ul id="related"></ul>
+    <p>Funded work to share? Add papers, instruments, lesson plans, and data to the <a id="commons" href="#">STEMEd+ Commons</a>.</p>
+    <details id="reviewbox" hidden><summary id="reviewsum">For maintainers</summary><ul id="reviewlist"></ul></details>
+    <p><a id="repo" href="#">About this site</a> · <span id="updated"></span></p>
+  </div>
+</footer>
+<script>
+(function () {
+  'use strict';
+  var MAINTAINER = 'libarkin@msu.edu';
+  var PAGE = 50, state = { d: null, shown: PAGE };
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var ACTIVE = ['open', 'forecast', 'upcoming', 'rolling'];
+  function el(id) { return document.getElementById(id); }
+  function node(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function ext(a) { a.target = '_blank'; a.rel = 'noopener noreferrer'; a.appendChild(node('span', 'vh', ' (opens in a new tab)')); return a; }
+  function link(href, text, cls) { var a = node('a', cls, text); a.href = href; return ext(a); }
+  function fill(sel, values, labels) { values.forEach(function (v, i) { var o = node('option', '', labels ? labels[i] : v); o.value = v; sel.appendChild(o); }); }
+  function pretty(iso) { if (!iso) return ''; var p = iso.split('-'); return p.length < 3 ? iso : MONTHS[+p[1] - 1] + ' ' + (+p[2]) + ', ' + p[0]; }
+  function daysUntil(iso) { var t = new Date(state.d.today + 'T00:00:00Z'), d = new Date(iso + 'T00:00:00Z'); return Math.round((d - t) / 864e5); }
+  function dated(i) { return i.deadline && (i.deadline_kind === 'due' || i.deadline_kind === 'estimated'); }
+
+  function deadlineBadge(i) {
+    var b = node('span', 'due');
+    if (dated(i)) {
+      var n = daysUntil(i.deadline), when = n === 0 ? 'today' : n === 1 ? 'tomorrow' : 'in ' + n + ' days';
+      b.textContent = (i.deadline_kind === 'estimated' ? 'Expected around ' : 'Due ') + pretty(i.deadline) + ' · ' + when;
+      b.className += n <= 14 ? ' soon' : n <= 45 ? ' mid' : ' ok';
+    } else if (i.deadline_kind === 'through') {
+      b.textContent = 'Accepts applications through ' + pretty(i.deadline);
+    } else if (i.deadline_kind === 'anytime') {
+      b.textContent = i.source === 'federal' ? 'Accepted anytime or on recurring dates' : 'Rolling: apply any time';
+      b.className += ' ok';
+    } else if (i.status === 'forecast') {
+      b.textContent = 'Forecast: deadline not yet set';
+    } else {
+      return null;   // the status tag below says it
+    }
+    return b;
+  }
+
+  function icsFor(i) {
+    var d = i.deadline.replace(/-/g, ''), e = new Date(i.deadline + 'T00:00:00Z'); e.setUTCDate(e.getUTCDate() + 1);
+    var end = e.toISOString().slice(0, 10).replace(/-/g, '');
+    function esc(s) { return s.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,'); }
+    var lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//STEMEd+//Funding//EN', 'BEGIN:VEVENT',
+      'UID:' + i.id.replace(':', '-') + '@stemed-funding', 'DTSTAMP:' + state.d.generated.replace(/[-:]/g, ''),
+      'DTSTART;VALUE=DATE:' + d, 'DTEND;VALUE=DATE:' + end,
+      'SUMMARY:' + esc((i.deadline_kind === 'estimated' ? 'Estimated deadline: ' : 'Deadline: ') + i.title),
+      'DESCRIPTION:' + esc(i.sponsor + '. Confirm on the funder\'s page: ' + i.url), 'URL:' + i.url, 'END:VEVENT', 'END:VCALENDAR'];
+    return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(lines.join('\r\n'));
+  }
+
+  function matches(i) {
+    var q = el('q').value.trim().toLowerCase(), t = el('type').value, s = el('sponsor').value, dsc = el('discipline').value,
+        k = el('kind').value, st = el('status').value, w = el('within').value;
+    if (q && (i.title + ' ' + i.sponsor + ' ' + i.number + ' ' + i.summary + ' ' + (i.amount || '')).toLowerCase().indexOf(q) === -1) return false;
+    if (t && i.sponsor_type !== t) return false;
+    if (s && i.sponsor !== s) return false;
+    if (dsc && !i.all_fields && i.disciplines.indexOf(dsc) === -1) return false;
+    if (k && i.kinds.indexOf(k) === -1) return false;
+    if (st === 'active' && ACTIVE.indexOf(i.status) === -1) return false;
+    if (st === 'dated' && !dated(i)) return false;
+    if (w && !(dated(i) && daysUntil(i.deadline) <= +w)) return false;
+    return true;
+  }
+
+  function card(i) {
+    var li = document.createElement('li');
+    li.appendChild(link(i.url, i.title, 't'));
+    li.appendChild(node('div', 'meta', i.sponsor + (i.number ? ' · ' + i.number : '')));
+    var badge = deadlineBadge(i); if (badge) li.appendChild(badge);
+    if (i.deadline_note) li.appendChild(node('div', 'note', i.deadline_note));
+    if (i.summary) li.appendChild(node('p', 'sum', i.summary));
+    var dl = node('dl', 'facts');
+    function fact(term, val) { if (!val) return; dl.appendChild(node('dt', '', term)); dl.appendChild(node('dd', '', val)); }
+    fact('Amount', i.amount);
+    fact('Who can apply', i.eligibility.join('; '));
+    if (i.source === 'curated') fact('Last checked', pretty(i.checked));
+    if (dl.childNodes.length) li.appendChild(dl);
+    var tags = node('div', 'tags');
+    tags.appendChild(node('span', 'tag st', state.d.status_labels[i.status] || i.status));
+    tags.appendChild(node('span', 'tag', i.sponsor_type));
+    if (i.all_fields) tags.appendChild(node('span', 'tag', 'All STEM+ fields'));
+    else i.disciplines.forEach(function (x) { tags.appendChild(node('span', 'tag', x)); });
+    i.states.forEach(function (x) { tags.appendChild(node('span', 'tag', x + ' only')); });
+    i.kinds.forEach(function (x) { tags.appendChild(node('span', 'tag k', x)); });
+    li.appendChild(tags);
+    var acts = node('div', 'acts');
+    if (i.announcement) acts.appendChild(link(i.announcement, 'Full announcement'));
+    acts.appendChild(link(i.url, i.source === 'federal' ? 'Grants.gov listing' : "Funder's page"));
+    if (dated(i)) { var a = node('a', '', 'Add to calendar'); a.href = icsFor(i); a.download = i.id.replace(':', '-') + '.ics'; acts.appendChild(a); }
+    if (i.source === 'curated') acts.appendChild(link(updateUrl(i), 'Report a correction'));
+    li.appendChild(acts);
+    return li;
+  }
+
+  function sorted(items) {
+    if (el('sort').value === 'new') return items.slice().sort(function (a, b) { return a.first_seen < b.first_seen ? 1 : a.first_seen > b.first_seen ? -1 : 0; });
+    return items;   // already in deadline order
+  }
+
+  function render() {
+    var items = sorted(state.d.items.filter(matches)), list = el('list');
+    list.innerHTML = '';
+    el('count').textContent = items.length + (items.length === 1 ? ' opportunity' : ' opportunities');
+    if (!items.length) { list.appendChild(node('li', 'empty', 'Nothing matches. Try "All, including between cycles" or clear a filter.')); el('more').hidden = true; return; }
+    items.slice(0, state.shown).forEach(function (i) { list.appendChild(card(i)); });
+    el('more').hidden = items.length <= state.shown;
+  }
+
+  var IDS = ['q', 'type', 'sponsor', 'discipline', 'kind', 'status', 'within', 'sort'];
+  function defaultValue(e) {
+    if (e.tagName !== 'SELECT') return '';
+    for (var k = 0; k < e.options.length; k++) if (e.options[k].defaultSelected) return e.options[k].value;
+    return e.options[0].value;
+  }
+  function viewHash() {
+    return IDS.map(function (id) {
+      var e = el(id);
+      return e.value !== defaultValue(e) ? id + '=' + encodeURIComponent(e.value) : null;
+    }).filter(Boolean).join('&');
+  }
+  function readHash() {
+    location.hash.replace(/^#/, '').split('&').forEach(function (p) {
+      var kv = p.split('='); if (IDS.indexOf(kv[0]) !== -1 && kv.length === 2) el(kv[0]).value = decodeURIComponent(kv[1]);
+    });
+  }
+  function changed() { state.shown = PAGE; var h = viewHash(); history.replaceState(null, '', h ? '#' + h : location.pathname + location.search); render(); }
+
+  function strip() {
+    var box = el('strip'), soon = state.d.items.filter(function (i) { return dated(i) && daysUntil(i.deadline) <= 30; }).slice(0, 8);
+    if (!soon.length) { box.appendChild(node('p', '', 'No dated deadlines in the next 30 days.')); return; }
+    soon.forEach(function (i) {
+      var c = node('div', 'c'); c.appendChild(link(i.url, i.title));
+      c.appendChild(node('div', 'm', i.sponsor + ' · ' + (i.deadline_kind === 'estimated' ? 'expected ' : 'due ') + pretty(i.deadline)));
+      box.appendChild(c);
+    });
+  }
+
+  function issueUrl(template, title) { return state.d.site.repo_url + '/issues/new?template=' + template + (title ? '&title=' + encodeURIComponent(title) : ''); }
+  function updateUrl(i) { return issueUrl('update_opportunity.yml', 'Update: ' + i.title) + '&listing=' + encodeURIComponent(i.title + ' (' + i.file + ')'); }
+
+  function init(d) {
+    state.d = d;
+    var site = d.site;
+    document.title = site.title; el('title').textContent = site.title; el('tagline').textContent = site.tagline;
+    fill(el('type'), d.sponsor_types);
+    var sponsors = []; d.items.forEach(function (i) { if (sponsors.indexOf(i.sponsor) === -1) sponsors.push(i.sponsor); });
+    fill(el('sponsor'), sponsors.sort(function (a, b) { return a.localeCompare(b); }));
+    fill(el('discipline'), d.disciplines);
+    fill(el('kind'), d.kinds);
+    readHash();
+    ['suggest', 'suggest2'].forEach(function (id) { el(id).href = issueUrl('suggest_opportunity.yml'); ext(el(id)); });
+    el('update').href = issueUrl('update_opportunity.yml'); ext(el('update'));
+    el('mail').href = 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('STEMEd+ Funding: new or corrected listing') +
+      '&body=' + encodeURIComponent('Program name:\nFunder:\nLink to the funder\'s page:\nNext deadline (if known):\nAmount:\nWho can apply:\nWhat it funds:\nCorrection (if this is about an existing listing):\n');
+    el('repo').href = site.repo_url; ext(el('repo'));
+    el('commons').href = site.commons_home; ext(el('commons'));
+    var ics = new URL('feeds/deadlines.ics', location.href).href;
+    el('icsurl').textContent = ics;
+    el('copyics').addEventListener('click', function () { navigator.clipboard && navigator.clipboard.writeText(ics); el('copyics').textContent = 'Copied'; });
+    site.related.forEach(function (r) { var li = document.createElement('li'); li.appendChild(link(r.url, r.name)); li.appendChild(document.createTextNode(': ' + r.about)); el('related').appendChild(li); });
+    var fed = d.items.filter(function (i) { return i.source === 'federal'; }).length;
+    el('fedcount').textContent = fed; el('curcount').textContent = d.items.length - fed;
+    var bad = d.status.filter(function (s) { return !s.ok; });
+    if (bad.length) { el('warn').textContent = 'The last update could not reach ' + bad.map(function (s) { return s.source; }).join(', ') + '. Earlier listings from it are still shown.'; el('warn').hidden = false; }
+    if (d.review.length) {
+      el('reviewbox').hidden = false; el('reviewsum').textContent = 'For maintainers: ' + d.review.length + ' listing(s) to re-check';
+      d.review.forEach(function (r) { var li = node('li', '', r.title + ' (' + r.file + '): ' + r.why.join('; ')); el('reviewlist').appendChild(li); });
+    }
+    el('updated').textContent = 'Updated ' + pretty(d.generated.slice(0, 10)) + '.';
+    strip();
+    IDS.forEach(function (id) { el(id).addEventListener('input', changed); });
+    el('more').addEventListener('click', function () { state.shown += PAGE; render(); });
+    el('share').addEventListener('click', function () { navigator.clipboard && navigator.clipboard.writeText(location.href); el('share').textContent = 'Link copied'; });
+    render();
+  }
+
+  fetch('opportunities.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(init).catch(function () {
+    el('list').appendChild(node('li', 'empty', 'The listings could not be loaded. Please try again later.'));
+  });
+})();
+</script>
+</body>
+</html>

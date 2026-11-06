@@ -1,0 +1,11 @@
+name: "Gates Foundation K-12 mathematics grants"
+sponsor: "Gates Foundation"
+sponsor_type: "Foundation"
+url: "https://www.gatesfoundation.org/"
+status: "invitation"
+deadline_note: "Mostly by invitation. Occasional open requests for proposals are run through partners; for example, Digital Promise's K-12 AI Infrastructure Program took proposals until July 31, 2026."
+eligibility: "Schools, districts, universities, and education nonprofits, usually by invitation."
+summary: "The foundation's US K-12 program centers on mathematics: instructional materials, teacher supports, and tools such as AI tutoring."
+kinds: ["K-12 and teachers", "Research"]
+disciplines: ["Mathematics"]
+checked: 2026-11-06

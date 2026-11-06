@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STEMEd+ Funding opportunity",
+  "description": "One funding program that Grants.gov does not cover: a foundation, society, or state or regional program. One file per program in opportunities/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "sponsor", "sponsor_type", "url", "status", "summary", "checked"],
+  "properties": {
+    "name": {"type": "string", "minLength": 3, "description": "Program name as the sponsor gives it."},
+    "sponsor": {"type": "string", "minLength": 2, "description": "Organization that funds or runs it."},
+    "sponsor_type": {"enum": ["Foundation", "Society or association", "State or regional", "Federal"]},
+    "url": {"type": "string", "format": "uri", "pattern": "^https?://", "description": "The sponsor's own page for the program."},
+    "status": {
+      "enum": ["open", "upcoming", "rolling", "between-cycles", "paused", "invitation", "no-open-call"],
+      "description": "open: taking applications now. upcoming: next deadline announced. rolling: any time. between-cycles: recurring, next dates not yet posted. paused: sponsor has paused it. invitation: by invitation or nomination only. no-open-call: no current competition."
+    },
+    "deadline": {"type": "string", "format": "date", "description": "Next deadline, if announced (YYYY-MM-DD)."},
+    "opens": {"type": "string", "format": "date", "description": "When applications open, if announced."},
+    "deadline_note": {"type": "string", "description": "How the cycle usually runs, in a sentence."},
+    "amount": {"type": "string"},
+    "eligibility": {"type": "string", "description": "Who can apply, in a sentence."},
+    "summary": {"type": "string", "minLength": 20, "maxLength": 400, "description": "What it funds, in your own words."},
+    "kinds": {
+      "type": "array", "uniqueItems": true,
+      "items": {"enum": ["Research", "Teaching and curriculum", "Students and training", "Early career", "K-12 and teachers",
+                         "Institutional capacity", "Broadening participation", "Outreach and informal learning"]}
+    },
+    "disciplines": {
+      "type": "array", "uniqueItems": true,
+      "description": "Leave empty for programs open to all STEM+ fields.",
+      "items": {"enum": ["Agriculture", "Bioscience", "Chemistry", "Earth Science", "Engineering", "Health Education",
+                         "Learning Science", "Mathematics", "Physics", "Science Education"]}
+    },
+    "states": {
+      "type": "array", "uniqueItems": true,
+      "description": "Two-letter codes for state or regional programs; leave out for national ones.",
+      "items": {"type": "string", "pattern": "^[A-Z]{2}$"}
+    },
+    "checked": {"type": "string", "format": "date", "description": "When someone last checked this against the sponsor's page."},
+    "notes": {"type": "string"}
+  }
+}

@@ -1,0 +1,12 @@
+name: "Michigan Space Grant Consortium"
+sponsor: "Michigan Space Grant Consortium"
+sponsor_type: "State or regional"
+url: "https://www.mispacegrant.org/"
+status: "between-cycles"
+deadline_note: "Annual call; see the consortium site."
+eligibility: "Faculty, students, and educators at member institutions in Michigan."
+summary: "Research seed grants, fellowships, and pre-college and public STEM education programs for Michigan member institutions."
+kinds: ["Research", "K-12 and teachers", "Students and training"]
+disciplines: ["Earth Science", "Engineering", "Physics", "Science Education"]
+states: ["MI"]
+checked: 2026-11-06

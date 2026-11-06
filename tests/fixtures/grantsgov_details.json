@@ -1,0 +1,1253 @@
+[
+ {
+  "id": 344124,
+  "opportunityNumber": "23-510",
+  "opportunityTitle": "Improving Undergraduate STEM Education: Directorate for STEM Education (IUSE: EDU)",
+  "owningAgencyCode": "NSF",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "agencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "47.076",
+    "programTitle": "STEM Education (formerly Education and Human Resources)"
+   },
+   {}
+  ],
+  "synopsis": {
+   "opportunityId": 344124,
+   "version": 25,
+   "agencyCode": "NSF",
+   "agencyName": "U.S. National Science Foundation",
+   "agencyPhone": "703-292-4203",
+   "agencyContactPhone": "703-292-4203",
+   "agencyContactName": "U.S. National Science Foundation",
+   "agencyContactEmail": "grantsgovsupport@nsf.gov",
+   "synopsisDesc": "<p><strong>Synopsis of Program:</strong></p>\n<p>The fields of science, technology, engineering, and mathematics (STEM) hold much promise as sectors of the economy where we can expect to see continuous vigorous growth in the coming decades. STEM job creation is expected to outpace non-STEM job creation significantly, according to the Commerce Department, reflecting the importance of STEM knowledge to the US economy.</p>\n<p>The National Science Foundation (NSF) plays a leadership role in developin",
+   "responseDate": "Jan 20, 2027 12:00:00 AM EST",
+   "responseDateDesc": "Institutional and Community Transformation (Capacity-Building and Level 1) proposals and Engaged Student Learning (Level 1) proposals",
+   "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510",
+   "fundingDescLinkDesc": "NSF Publication 23-510",
+   "postingDate": "Oct 20, 2022 12:00:00 AM EDT",
+   "archiveDate": "Aug 20, 2027 12:00:00 AM EDT",
+   "costSharing": false,
+   "estimatedFunding": "61000000",
+   "estimatedFundingFormatted": "61,000,000",
+   "awardCeiling": "2000000",
+   "awardCeilingFormatted": "2,000,000",
+   "awardFloor": "200000",
+   "awardFloorFormatted": "200,000",
+   "sendEmail": "Y",
+   "createTimeStamp": "Oct 07, 2026 11:09:09 AM EDT",
+   "createdDate": "Oct 20, 2022 01:00:13 AM EDT",
+   "lastUpdatedDate": "Oct 07, 2026 11:09:09 AM EDT",
+   "applicantTypes": [
+    {
+     "id": "99",
+     "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ST",
+     "description": "Science and Technology and other Research and Development"
+    }
+   ],
+   "responseDateStr": "2027-01-20-00-00-00",
+   "postingDateStr": "2022-10-20-00-00-00",
+   "archiveDateStr": "2027-08-20-00-00-00",
+   "createTimeStampStr": "2026-10-07-11-09-09"
+  }
+ },
+ {
+  "id": 359157,
+  "opportunityNumber": "PAR-27-077",
+  "opportunityTitle": "NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)",
+  "owningAgencyCode": "HHS-NIH11",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "Department of Health and Human Services",
+   "agencyCode": "HHS"
+  },
+  "agencyDetails": {
+   "agencyName": "National Institutes of Health",
+   "agencyCode": "HHS-NIH11"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "93.121",
+    "programTitle": "Oral Diseases and Disorders Research"
+   },
+   {
+    "cfdaNumber": "93.172",
+    "programTitle": "Human Genome Research"
+   },
+   {
+    "cfdaNumber": "93.213",
+    "programTitle": "Research and Training in Complementary and Integrative Health"
+   },
+   {
+    "cfdaNumber": "93.242",
+    "programTitle": "Mental Health Research Grants"
+   },
+   {
+    "cfdaNumber": "93.279",
+    "programTitle": "Drug Use and Addiction Research Programs"
+   },
+   {
+    "cfdaNumber": "93.286",
+    "programTitle": "Discovery and Applied Research for Technological Innovations to Improve Human Health"
+   },
+   {
+    "cfdaNumber": "93.307",
+    "programTitle": "Minority Health and Health Disparities Research"
+   },
+   {
+    "cfdaNumber": "93.310",
+    "programTitle": "Trans-NIH Research Support"
+   },
+   {
+    "cfdaNumber": "93.313",
+    "programTitle": "NIH Office of Research on Women's Health"
+   },
+   {
+    "cfdaNumber": "93.361",
+    "programTitle": "Nursing Research"
+   },
+   {
+    "cfdaNumber": "93.855",
+    "programTitle": "Allergy and Infectious Diseases Research"
+   },
+   {
+    "cfdaNumber": "93.859",
+    "programTitle": "Biomedical Research and Research Training"
+   },
+   {
+    "cfdaNumber": "93.866",
+    "programTitle": "Aging Research"
+   },
+   {
+    "cfdaNumber": "93.867",
+    "programTitle": "Vision Research"
+   },
+   {}
+  ],
+  "synopsis": {
+   "opportunityId": 359157,
+   "version": 3,
+   "agencyCode": "HHS-NIH11",
+   "agencyName": "National Institutes of Health",
+   "agencyPhone": "301-402-2541",
+   "agencyContactPhone": "301-402-2541",
+   "agencyContactName": "National Institutes of Health",
+   "agencyContactEmail": "NIGMS_SEPA@mail.nih.gov",
+   "synopsisDesc": "<p>The NIH Research Education Program (R25) supports research education activities in the mission areas of the NIH.&nbsp;The overarching goal of this NIH Science Education Partnership Award (SEPA) program is to support educational activities that increase understanding of biomedical research among pre-college (pre-kindergarten to grade12) individuals, and to encourage awareness of and continued interest in careers in&nbsp;science, technology, engineering, and mathematics (STEM).</p>",
+   "responseDate": "May 25, 2029 12:00:00 AM EDT",
+   "postingDate": "May 05, 2026 12:00:00 AM EDT",
+   "archiveDate": "Jul 24, 2029 12:00:00 AM EDT",
+   "costSharing": false,
+   "awardCeiling": "none",
+   "awardFloor": "none",
+   "applicantEligibilityDesc": "Refer to Section III. Eligibility Information in the NOFO for additional information on eligibility.Foreign Organizations/International Collaborations:Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.Foreign components, as defined in the NIH Grants Policy Statement, are not allowed.",
+   "sendEmail": "Y",
+   "createTimeStamp": "Oct 22, 2026 01:44:56 PM EDT",
+   "createdDate": "May 05, 2026 10:16:22 AM EDT",
+   "lastUpdatedDate": "Oct 22, 2026 01:44:48 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    },
+    {
+     "id": "23",
+     "description": "Small businesses"
+    },
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "22",
+     "description": "For profit organizations other than small businesses"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "HL",
+     "description": "Health"
+    }
+   ],
+   "responseDateStr": "2029-05-25-00-00-00",
+   "postingDateStr": "2026-05-05-00-00-00",
+   "archiveDateStr": "2029-07-24-00-00-00",
+   "createTimeStampStr": "2026-10-22-13-44-56"
+  },
+  "forecast": {
+   "opportunityId": 359157,
+   "version": 5,
+   "postingDate": "May 28, 2025 12:00:00 AM EDT",
+   "archiveDate": "May 04, 2026 12:00:00 AM EDT",
+   "forecastDesc": "<p>The NIH Science Education Partnership Award (SEPA) program supports innovative educational activities that encourage pre-college students (pre-kindergarten to grade 12), to pursue further studies in science, technology, engineering, and mathematics (STEM), particularly in the biomedical and behavioral sciences.</p><p><br></p><p>The program will support classroom-based projects for pre-kindergarten to grade 12 (pre-college) students and teachers and informal science education (ISE) projects co",
+   "costSharing": false,
+   "agencyContactName": "Jessica Faupel-Badger\r\nNational Institute of General Medical Sciences (NIGMS)",
+   "agencyContactPhone": "301-594-0000",
+   "agencyContactEmail": "badgerje@nih.gov",
+   "agencyCode": "HHS-NIH11",
+   "sendEmail": "Y",
+   "applicantEligibilityDesc": "",
+   "estSynopsisPostingDate": "Oct 01, 2025 12:00:00 AM EDT",
+   "estApplicationResponseDate": "Jul 07, 2026 12:00:00 AM EDT",
+   "estApplicationResponseDateDesc": "",
+   "estAwardDate": "Apr 01, 2027 12:00:00 AM EDT",
+   "estProjectStartDate": "Apr 01, 2027 12:00:00 AM EDT",
+   "fiscalYear": 2027,
+   "createTimeStamp": "Oct 22, 2026 01:44:56 PM EDT",
+   "createdDate": "May 28, 2025 08:09:13 AM EDT",
+   "lastUpdatedDate": "Oct 22, 2026 01:44:56 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "23",
+     "description": "Small businesses"
+    },
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "22",
+     "description": "For profit organizations other than small businesses"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "HL",
+     "description": "Health"
+    }
+   ],
+   "postingDateStr": "2025-05-28-00-00-00",
+   "archiveDateStr": "2026-05-04-00-00-00",
+   "estSynopsisPostingDateStr": "2025-10-01-00-00-00",
+   "estApplicationResponseDateStr": "2026-07-07-00-00-00",
+   "estAwardDateStr": "2027-04-01-00-00-00",
+   "estProjectStartDateStr": "2027-04-01-00-00-00",
+   "createTimeStampStr": "2026-10-22-13-44-56"
+  }
+ },
+ {
+  "id": 360350,
+  "opportunityNumber": "25-545",
+  "opportunityTitle": "NSF STEM K-12 (STEM K-12)",
+  "owningAgencyCode": "NSF",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "agencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "47.076",
+    "programTitle": "STEM Education (formerly Education and Human Resources)"
+   },
+   {}
+  ],
+  "synopsis": {
+   "opportunityId": 360350,
+   "version": 5,
+   "agencyCode": "NSF",
+   "agencyName": "U.S. National Science Foundation",
+   "agencyPhone": "703-292-4203",
+   "agencyContactPhone": "703-292-4203",
+   "agencyContactName": "U.S. National Science Foundation",
+   "agencyContactEmail": "grantsgovsupport@nsf.gov",
+   "synopsisDesc": "<p>The NSF STEM K-12 program in the Division of Research on Learning in Formal and Informal Settings (DRL) in the Directorate for STEM Education (EDU) supports fundamental, applied, and translational research that advances STEM teaching and learning and improves understanding of education across the human lifespan and a range of formal and informal settings<em>. </em></p>",
+   "responseDate": "Oct 07, 2076 12:00:00 AM EDT",
+   "responseDateDesc": "Proposals accepted anytime",
+   "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25545",
+   "fundingDescLinkDesc": "NSF Publication 25-545",
+   "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+   "costSharing": false,
+   "estimatedFunding": "30000000",
+   "estimatedFundingFormatted": "30,000,000",
+   "awardCeiling": "none",
+   "awardFloor": "none",
+   "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -For-profit organizations: U.S.-based commercial organizations, including small businesses, with strong capabilities in scientific or engineering research or education and a passion for innovation.\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or res",
+   "sendEmail": "Y",
+   "createTimeStamp": "Oct 07, 2026 11:10:19 AM EDT",
+   "createdDate": "Aug 22, 2025 11:00:07 PM EDT",
+   "lastUpdatedDate": "Oct 07, 2026 11:10:19 AM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ST",
+     "description": "Science and Technology and other Research and Development"
+    }
+   ],
+   "responseDateStr": "2076-10-07-00-00-00",
+   "postingDateStr": "2025-08-22-00-00-00",
+   "createTimeStampStr": "2026-10-07-11-10-19"
+  }
+ },
+ {
+  "id": 363111,
+  "opportunityNumber": "HRSA-27-017",
+  "opportunityTitle": "Teaching Health Center Graduate Medical Education (THCGME) Program",
+  "owningAgencyCode": "HHS-HRSA",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "Department of Health and Human Services",
+   "agencyCode": "HHS"
+  },
+  "agencyDetails": {
+   "agencyName": "Health Resources and Services Administration",
+   "agencyCode": "HHS-HRSA"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "93.530",
+    "programTitle": "Teaching Health Center Graduate Medical Education Payment"
+   }
+  ],
+  "synopsis": {
+   "opportunityId": 363111,
+   "version": 1,
+   "agencyCode": "HHS-HRSA",
+   "agencyName": "Health Resources and Services Administration",
+   "agencyPhone": "301-443-7432",
+   "agencyContactPhone": "301-443-7432",
+   "agencyContactName": "Health Resources and Services Administration",
+   "agencyContactEmail": "xsantana@hrsa.gov",
+   "synopsisDesc": "<p><span style=\"background-color:transparent;\">The purpose of the THCGME Program is to provide maintenance funding to support the training of residents in existing HRSA-supported primary care residency training programs in community-based ambulatory patient care centers. These programs will prepare residents to provide </span>high-quality care, particularly in rural and medically vulnerable communities, and develop competencies to serve a wide range of populations and communities.</p>",
+   "responseDate": "Dec 11, 2026 12:00:00 AM EST",
+   "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+   "postingDate": "Oct 29, 2026 12:00:00 AM EDT",
+   "archiveDate": "Sep 30, 2027 12:00:00 AM EDT",
+   "costSharing": false,
+   "numberOfAwards": "12",
+   "estimatedFunding": "20960000",
+   "estimatedFundingFormatted": "20,960,000",
+   "awardCeiling": "2880000",
+   "awardCeilingFormatted": "2,880,000",
+   "awardFloor": "320000",
+   "awardFloorFormatted": "320,000",
+   "applicantEligibilityDesc": "Existing HRSA THCGME Program payment recipients must continue to meet the program's eligibility requirements to remain eligible for HRSA THCGME funding. Applicants must be community-based, ambulatory patient care centers that operate an accredited primary care residency program. They may operate individually or through a graduate medical education (GME) consortium. The residency program must be in one  of the following specialties/disciplines:Family Medicine  Internal Medicine  Pediatrics  Inter",
+   "createTimeStamp": "Oct 29, 2026 09:48:36 AM EDT",
+   "createdDate": "Oct 29, 2026 09:42:17 AM EDT",
+   "lastUpdatedDate": "Oct 29, 2026 09:42:17 AM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "HL",
+     "description": "Health"
+    }
+   ],
+   "responseDateStr": "2026-12-11-00-00-00",
+   "postingDateStr": "2026-10-29-00-00-00",
+   "archiveDateStr": "2027-09-30-00-00-00",
+   "createTimeStampStr": "2026-10-29-09-48-36"
+  },
+  "forecast": {
+   "opportunityId": 363111,
+   "version": 2,
+   "postingDate": "Jul 08, 2026 12:00:00 AM EDT",
+   "archiveDate": "Oct 28, 2026 12:00:00 AM EDT",
+   "forecastDesc": "<p><span style=\"background-color:transparent;\">The purpose of the THCGME Program is to provide maintenance funding to support the training of residents in existing HRSA-supported primary care residency training programs in community-based ambulatory patient care centers. These programs will prepare residents to provide </span>high-quality care, particularly in rural and medically vulnerable communities, and develop competencies to serve a wide range of populations and communities.</p>",
+   "costSharing": false,
+   "numberOfAwards": "12",
+   "estimatedFunding": "20960000",
+   "awardCeiling": "2880000",
+   "awardFloor": "320000",
+   "agencyContactName": "Xiomara Santana, MPH",
+   "agencyContactPhone": "301-480-2777",
+   "agencyContactEmail": "xsantana@hrsa.gov",
+   "agencyCode": "HHS-HRSA",
+   "applicantEligibilityDesc": "Existing HRSA THCGME Program payment recipients must continue to meet the program's eligibility requirements to remain eligible for HRSA THCGME funding. Applicants must be community based, ambulatory patient care center that operates an accredited primary care residency program. They may operate directly or through a graduate medical education (GME) consortium. The residency program must be in one ore more of the following specialties/disciplines:Family Medicine  Internal Medicine  Pediatrics  I",
+   "estSynopsisPostingDate": "Jul 31, 2026 12:00:00 AM EDT",
+   "estApplicationResponseDate": "Sep 29, 2026 12:00:00 AM EDT",
+   "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+   "estAwardDate": "Jun 01, 2027 12:00:00 AM EDT",
+   "estProjectStartDate": "Jul 01, 2027 12:00:00 AM EDT",
+   "fiscalYear": 2027,
+   "createTimeStamp": "Oct 29, 2026 09:48:36 AM EDT",
+   "createdDate": "Jul 08, 2026 10:47:57 AM EDT",
+   "lastUpdatedDate": "Oct 29, 2026 09:48:36 AM EDT",
+   "estimatedFundingFormatted": "20,960,000",
+   "awardCeilingFormatted": "2,880,000",
+   "awardFloorFormatted": "320,000",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "HL",
+     "description": "Health"
+    }
+   ],
+   "postingDateStr": "2026-07-08-00-00-00",
+   "archiveDateStr": "2026-10-28-00-00-00",
+   "estSynopsisPostingDateStr": "2026-07-31-00-00-00",
+   "estApplicationResponseDateStr": "2026-09-29-00-00-00",
+   "estAwardDateStr": "2027-06-01-00-00-00",
+   "estProjectStartDateStr": "2027-07-01-00-00-00",
+   "createTimeStampStr": "2026-10-29-09-48-36"
+  }
+ },
+ {
+  "id": 334905,
+  "opportunityNumber": "RANDENDEPSTEMFY22RFI",
+  "opportunityTitle": "National Defense Education Program (NDEP) Science, Technology, Engineering, and Mathematics (STEM) Consortia Request for Information (RFI) for the Office of the Under Secretary of Defense (Research &amp; Engineering)",
+  "owningAgencyCode": "DOD",
+  "docType": "forecast",
+  "topAgencyDetails": {
+   "agencyName": "Department of Defense",
+   "agencyCode": "DOD"
+  },
+  "agencyDetails": {
+   "agencyName": "Department of Defense",
+   "agencyCode": "DOD"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "12.006",
+    "programTitle": "National Defense Education Program"
+   }
+  ],
+  "forecast": {
+   "opportunityId": 334905,
+   "version": 2,
+   "postingDate": "Jul 27, 2021 12:00:00 AM EDT",
+   "forecastDesc": "<p><strong>Request for Information</strong></p> \n<p><br></p> \n<p><strong>Request for Information:</strong> R&amp;ENDEPSTEMFY22RFI</p> \n<p><br></p> \n<p><strong>Agency/Office:</strong>&nbsp;Washington Headquarters Services/Acquisition Directorate (WHS/AD) on behalf of the Office of the Under Secretary of Defense (Research &amp; Engineering)</p> \n<p><br></p> \n<p><strong>Title:</strong>&nbsp;National Defense Education Program (NDEP) <span style=\"color: black;\">Science, Technology, Engineering, and M",
+   "fundingActivityCategoryDesc": "Request for Information",
+   "costSharing": true,
+   "numberOfAwards": "1",
+   "agencyContactName": "osd.dodstem@mail.mil",
+   "agencyContactPhone": "7035463505",
+   "agencyContactEmail": "osd.dodstem@mail.mil",
+   "agencyCode": "DOD",
+   "sendEmail": "Y",
+   "applicantEligibilityDesc": "N/A - Request for Information",
+   "estSynopsisPostingDate": "Nov 30, 2021 12:00:00 AM EST",
+   "estApplicationResponseDate": "Feb 15, 2022 12:00:00 AM EST",
+   "fiscalYear": 2022,
+   "createTimeStamp": "Aug 30, 2021 12:47:24 PM EDT",
+   "createdDate": "Jul 27, 2021 06:24:27 AM EDT",
+   "lastUpdatedDate": "Aug 30, 2021 12:47:24 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "O",
+     "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+    }
+   ],
+   "postingDateStr": "2021-07-27-00-00-00",
+   "estSynopsisPostingDateStr": "2021-11-30-00-00-00",
+   "estApplicationResponseDateStr": "2022-02-15-00-00-00",
+   "createTimeStampStr": "2021-08-30-12-47-24"
+  }
+ },
+ {
+  "id": 363846,
+  "opportunityNumber": "USDA-NIFA-HSI-011903",
+  "opportunityTitle": "Hispanic-Serving Institutions Education Grants Program",
+  "owningAgencyCode": "USDA-NIFA",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "Department of Agriculture",
+   "agencyCode": "USDA"
+  },
+  "agencyDetails": {
+   "agencyName": "National Institute of Food and Agriculture",
+   "agencyCode": "USDA-NIFA"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "10.223",
+    "programTitle": "Hispanic Serving Institutions Education Grants"
+   }
+  ],
+  "synopsis": {
+   "opportunityId": 363846,
+   "version": 1,
+   "agencyCode": "USDA-NIFA",
+   "agencyName": "Joseph  Perez\nLead Policy Analyst",
+   "agencyPhone": "202-445-5402",
+   "agencyContactPhone": "202-445-5402",
+   "agencyContactName": "Joseph  Perez\nLead Policy Analyst",
+   "agencyContactEmail": "grantapplicationquestions@usda.gov",
+   "synopsisDesc": "<p><span style=\"color: black;\">The HSI Education Grants Program, under assistance listing number 10.223, will promote and strengthen the ability HSIs to carry out education, applied research, and related community development programs. This program encourages innovative teaching, education, or related community development proposals with the potential to impact and become models for other institutions at the regional or national level. Applications may propose, as part of a formal education and ",
+   "responseDate": "Dec 03, 2026 12:00:00 AM EST",
+   "responseDateDesc": "",
+   "fundingDescLinkUrl": "https://www.nifa.usda.gov/grants/funding-opportunities/hispanic-serving-institutions-education-grants-program",
+   "fundingDescLinkDesc": "Hispanic-Serving Institutions Education Grants Program",
+   "postingDate": "Sep 10, 2026 12:00:00 AM EDT",
+   "archiveDate": "Jan 02, 2027 12:00:00 AM EST",
+   "costSharing": false,
+   "numberOfAwards": "40",
+   "estimatedFunding": "30600000",
+   "estimatedFundingFormatted": "30,600,000",
+   "awardCeiling": "1200000",
+   "awardCeilingFormatted": "1,200,000",
+   "awardFloor": "25000",
+   "awardFloorFormatted": "25,000",
+   "applicantEligibilityDesc": "Applicants for the HSI Education Grants Program must meet all the requirements discussed in this NOFO. Failure to meet the eligibility criteria by the application deadline may result in exclusion from consideration or preclude NIFA from making an award. For those new to Federal financial assistance, NIFA&rsquo;s About Grants provides highly recommended information about grants and other resources to help understand the Federal awards process.\r\n\r\nApplications may only be submitted by Hispanic-Ser",
+   "sendEmail": "Y",
+   "createTimeStamp": "Sep 10, 2026 01:58:02 PM EDT",
+   "createdDate": "Sep 10, 2026 01:51:46 PM EDT",
+   "lastUpdatedDate": "Sep 10, 2026 01:51:46 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "AG",
+     "description": "Agriculture"
+    }
+   ],
+   "responseDateStr": "2026-12-03-00-00-00",
+   "postingDateStr": "2026-09-10-00-00-00",
+   "archiveDateStr": "2027-01-02-00-00-00",
+   "createTimeStampStr": "2026-09-10-13-58-02"
+  }
+ },
+ {
+  "id": 339594,
+  "opportunityNumber": "22-586",
+  "opportunityTitle": "Faculty Early Career Development Program (CAREER)",
+  "owningAgencyCode": "NSF",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "agencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "47.041",
+    "programTitle": "Engineering"
+   },
+   {
+    "cfdaNumber": "47.049",
+    "programTitle": "Mathematical and Physical Sciences"
+   },
+   {
+    "cfdaNumber": "47.050",
+    "programTitle": "Geosciences"
+   },
+   {
+    "cfdaNumber": "47.070",
+    "programTitle": "Computer and Information Science and Engineering"
+   },
+   {
+    "cfdaNumber": "47.074",
+    "programTitle": "Biological Sciences"
+   },
+   {
+    "cfdaNumber": "47.075",
+    "programTitle": "Social, Behavioral, and Economic Sciences"
+   },
+   {
+    "cfdaNumber": "47.076",
+    "programTitle": "STEM Education (formerly Education and Human Resources)"
+   },
+   {
+    "cfdaNumber": "47.084",
+    "programTitle": "NSF Technology, Innovation, and Partnerships"
+   },
+   {}
+  ],
+  "synopsis": {
+   "opportunityId": 339594,
+   "version": 29,
+   "agencyCode": "NSF",
+   "agencyName": "U.S. National Science Foundation",
+   "agencyPhone": "703-292-4203",
+   "agencyContactPhone": "703-292-4203",
+   "agencyContactName": "U.S. National Science Foundation",
+   "agencyContactEmail": "grantsgovsupport@nsf.gov",
+   "synopsisDesc": "<p><em>CAREER</em>:&nbsp;The Faculty Early Career Development (CAREER) Program is a Foundation-wide activity that offers the National Science Foundation's most prestigious awards in support of early-career faculty who have the potential to serve as academic role models in research and education and to lead advances in the mission of their department or organization. Activities pursued by early-career faculty should build a firm foundation for a lifetime of leadership in integrating education and",
+   "responseDate": "Jul 28, 2027 12:00:00 AM EDT",
+   "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22586",
+   "fundingDescLinkDesc": "NSF Publication 22-586",
+   "postingDate": "Apr 19, 2022 12:00:00 AM EDT",
+   "archiveDate": "Aug 27, 2027 12:00:00 AM EDT",
+   "costSharing": false,
+   "estimatedFunding": "250000000",
+   "estimatedFundingFormatted": "250,000,000",
+   "awardCeiling": "none",
+   "awardFloor": "400000",
+   "awardFloorFormatted": "400,000",
+   "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their fac",
+   "sendEmail": "Y",
+   "createTimeStamp": "Sep 10, 2026 11:58:19 AM EDT",
+   "createdDate": "Apr 19, 2022 01:00:17 AM EDT",
+   "lastUpdatedDate": "Sep 10, 2026 11:58:19 AM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ST",
+     "description": "Science and Technology and other Research and Development"
+    }
+   ],
+   "responseDateStr": "2027-07-28-00-00-00",
+   "postingDateStr": "2022-04-19-00-00-00",
+   "archiveDateStr": "2027-08-27-00-00-00",
+   "createTimeStampStr": "2026-09-10-11-58-19"
+  }
+ },
+ {
+  "id": 357498,
+  "opportunityNumber": "25-514",
+  "opportunityTitle": "NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM)",
+  "owningAgencyCode": "NSF",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "agencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "47.076",
+    "programTitle": "STEM Education (formerly Education and Human Resources)"
+   },
+   {}
+  ],
+  "synopsis": {
+   "opportunityId": 357498,
+   "version": 8,
+   "agencyCode": "NSF",
+   "agencyName": "U.S. National Science Foundation",
+   "agencyPhone": "703-292-4203",
+   "agencyContactPhone": "703-292-4203",
+   "agencyContactName": "U.S. National Science Foundation",
+   "agencyContactEmail": "grantsgovsupport@nsf.gov",
+   "synopsisDesc": "<p>The main goal of the S-STEM program is to enable academically talented, low-income students to pursue successful careers in promising STEM fields. Ultimately, the S-STEM program seeks to increase the number of academically promising low-income students who graduate with an S-STEM eligible degree and contribute to the American innovation economy with their STEM knowledge. Recognizing that financial aid alone cannot increase retention and graduation in STEM, the program provides awards to insti",
+   "responseDate": "Mar 02, 2027 12:00:00 AM EST",
+   "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25514",
+   "fundingDescLinkDesc": "NSF Publication 25-514",
+   "postingDate": "Dec 03, 2024 12:00:00 AM EST",
+   "archiveDate": "Apr 01, 2027 12:00:00 AM EDT",
+   "costSharing": false,
+   "numberOfAwards": "60",
+   "estimatedFunding": "120000000",
+   "estimatedFundingFormatted": "120,000,000",
+   "awardCeiling": "5000000",
+   "awardCeilingFormatted": "5,000,000",
+   "awardFloor": "1000000",
+   "awardFloorFormatted": "1,000,000",
+   "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards a",
+   "sendEmail": "Y",
+   "createTimeStamp": "Oct 07, 2026 11:10:13 AM EDT",
+   "createdDate": "Dec 03, 2024 01:00:09 AM EST",
+   "lastUpdatedDate": "Oct 07, 2026 11:10:13 AM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ST",
+     "description": "Science and Technology and other Research and Development"
+    }
+   ],
+   "responseDateStr": "2027-03-02-00-00-00",
+   "postingDateStr": "2024-12-03-00-00-00",
+   "archiveDateStr": "2027-04-01-00-00-00",
+   "createTimeStampStr": "2026-10-07-11-10-13"
+  }
+ },
+ {
+  "id": 300997,
+  "opportunityNumber": "NNH18ZHA002N-MUSIC",
+  "opportunityTitle": "EONS 2018: Appendix E Minority University Research and Education Project (MUREP) for Sustainability and Innovation Collaborative &ndash; (MUSIC) ",
+  "owningAgencyCode": "NASA",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "National Aeronautics and Space Administration",
+   "agencyCode": "NASA"
+  },
+  "agencyDetails": {
+   "agencyName": "National Aeronautics and Space Administration",
+   "agencyCode": "NASA"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "43.008",
+    "programTitle": "Education"
+   }
+  ],
+  "synopsis": {
+   "opportunityId": 300997,
+   "version": 1,
+   "agencyCode": "NASA",
+   "agencyContactEmail": "NASAMUSIC@nasaprs.com",
+   "synopsisDesc": "Awards will be made as cooperative agreements to accredited Minority Serving Institutions (MSIs) partnered with non-profit organizations in the United States that are eligible to apply for this NASA Research Announcement (NRA). The period of performance for an award is up to 2 years. Prospective proposers are requested to submit any questions in writing to NASAMUSIC@nasaprs.com no later than 10 business days before the proposal due date so that NASA will have sufficient time to respond. Proposer",
+   "responseDateDesc": "Notice of Intent Due:  March 23, 2018; Proposals Due: May 22, 2018 11:59 PM EST",
+   "fundingDescLinkUrl": "http://nspires.nasaprs.com",
+   "fundingDescLinkDesc": "Link to Full Announcement",
+   "postingDate": "Feb 22, 2018 12:00:00 AM EST",
+   "fundingActivityCategoryDesc": "Education and Training Services",
+   "costSharing": false,
+   "numberOfAwards": "3",
+   "estimatedFunding": "900000",
+   "estimatedFundingFormatted": "900,000",
+   "awardCeiling": "450000",
+   "awardCeilingFormatted": "450,000",
+   "awardFloor": "0",
+   "awardFloorFormatted": "0",
+   "applicantEligibilityDesc": "Minority Serving Institutions (MSIs), Non-profit Organizations with missions to support MSIs",
+   "createTimeStamp": "Feb 22, 2018 10:34:53 AM EST",
+   "createdDate": "Feb 22, 2018 10:34:53 AM EST",
+   "applicantTypes": [
+    {
+     "id": "99",
+     "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ED",
+     "description": "Education"
+    }
+   ],
+   "postingDateStr": "2018-02-22-00-00-00",
+   "createTimeStampStr": "2018-02-22-10-34-53"
+  }
+ },
+ {
+  "id": 351451,
+  "opportunityNumber": "FOR-FD-24-017",
+  "opportunityTitle": "OMHHE Educational Funding Opportunity: Expanding education on skin lightening products (U01) Clinical Trials Not Allowed",
+  "owningAgencyCode": "HHS-FDA",
+  "docType": "forecast",
+  "topAgencyDetails": {
+   "agencyName": "Department of Health and Human Services",
+   "agencyCode": "HHS"
+  },
+  "agencyDetails": {
+   "agencyName": "Food and Drug Administration",
+   "agencyCode": "HHS-FDA"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "93.103",
+    "programTitle": "Food and Drug Administration Research"
+   }
+  ],
+  "forecast": {
+   "opportunityId": 351451,
+   "version": 1,
+   "postingDate": "Dec 12, 2023 12:00:00 AM EST",
+   "forecastDesc": "<p>The purpose of the funding opportunity is to expand and advance FDA's Office of Minority Health and Health Equity (OMHHE) work with stakeholders and partners for education, outreach, and public awareness activities on potential risks from skin lightening products containing hydroquinone and/or mercury.</p><p><br></p><p>Applicants will research and propose innovative and community-based strategies and activities that have the potential to strengthen the science base for education and public he",
+   "costSharing": false,
+   "awardCeiling": "250000",
+   "awardFloor": "250000",
+   "agencyContactName": "Terrin Brown\r\nGrantor",
+   "agencyContactPhone": "2404027610",
+   "agencyContactEmail": "terrin.brown@fda.hhs.gov",
+   "agencyCode": "HHS-FDA",
+   "sendEmail": "Y",
+   "fiscalYear": 2024,
+   "createTimeStamp": "Dec 12, 2023 01:28:07 PM EST",
+   "createdDate": "Dec 12, 2023 01:28:07 PM EST",
+   "lastUpdatedDate": "Dec 12, 2023 01:28:07 PM EST",
+   "awardCeilingFormatted": "250,000",
+   "awardFloorFormatted": "250,000",
+   "applicantTypes": [
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "22",
+     "description": "For profit organizations other than small businesses"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    },
+    {
+     "id": "99",
+     "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "23",
+     "description": "Small businesses"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    },
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "AG",
+     "description": "Agriculture"
+    },
+    {
+     "id": "CP",
+     "description": "Consumer Protection"
+    },
+    {
+     "id": "FN",
+     "description": "Food and Nutrition"
+    }
+   ],
+   "postingDateStr": "2023-12-12-00-00-00",
+   "createTimeStampStr": "2023-12-12-13-28-07"
+  }
+ },
+ {
+  "id": 350802,
+  "opportunityNumber": "24-503",
+  "opportunityTitle": "Research Experiences for Teachers (RET) in Engineering and Computer Science",
+  "owningAgencyCode": "NSF",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "agencyDetails": {
+   "agencyName": "U.S. National Science Foundation",
+   "agencyCode": "NSF"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "47.041",
+    "programTitle": "Engineering"
+   },
+   {}
+  ],
+  "synopsis": {
+   "opportunityId": 350802,
+   "version": 11,
+   "agencyCode": "NSF",
+   "agencyName": "U.S. National Science Foundation",
+   "agencyPhone": "703-292-4203",
+   "agencyContactPhone": "703-292-4203",
+   "agencyContactName": "U.S. National Science Foundation",
+   "agencyContactEmail": "grantsgovsupport@nsf.gov",
+   "synopsisDesc": "<p>The Research Experiences for Teachers (RET) in Engineering and Computer Science program supports authentic summer research experiences for K-14 educators to foster long-term collaborations between universities, community colleges, school districts, and industry partners. With this solicitation, the Directorates for Engineering (ENG) and Computer and Information Science and Engineering (CISE) focus on a reciprocal exchange of expertise between K-14 educators and research faculty and (when appl",
+   "responseDate": "Oct 13, 2027 12:00:00 AM EDT",
+   "responseDateDesc": "for RET Site Proposals",
+   "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24503",
+   "fundingDescLinkDesc": "NSF Publication 24-503",
+   "postingDate": "Oct 31, 2023 12:00:00 AM EDT",
+   "archiveDate": "Nov 12, 2027 12:00:00 AM EST",
+   "costSharing": false,
+   "estimatedFunding": "5800000",
+   "estimatedFundingFormatted": "5,800,000",
+   "awardCeiling": "none",
+   "awardFloor": "600000",
+   "awardFloorFormatted": "600,000",
+   "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -RET Sites\n\n\nInstitutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of",
+   "sendEmail": "Y",
+   "createTimeStamp": "Oct 15, 2026 05:01:02 AM EDT",
+   "createdDate": "Oct 31, 2023 01:00:41 AM EDT",
+   "lastUpdatedDate": "Oct 15, 2026 05:01:02 AM EDT",
+   "applicantTypes": [
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ST",
+     "description": "Science and Technology and other Research and Development"
+    }
+   ],
+   "responseDateStr": "2027-10-13-00-00-00",
+   "postingDateStr": "2023-10-31-00-00-00",
+   "archiveDateStr": "2027-11-12-00-00-00",
+   "createTimeStampStr": "2026-10-15-05-01-02"
+  }
+ },
+ {
+  "id": 362034,
+  "opportunityNumber": "NOAA-NMFS-AK-2026-33268",
+  "opportunityTitle": "2026 Alaska Marine Education and Training Mini-Grant Program",
+  "owningAgencyCode": "DOC-DOCNOAAERA",
+  "docType": "synopsis",
+  "topAgencyDetails": {
+   "agencyName": "Department of Commerce",
+   "agencyCode": "DOC"
+  },
+  "agencyDetails": {
+   "agencyName": "DOC NOAA - ERA Production",
+   "agencyCode": "DOC-DOCNOAAERA"
+  },
+  "cfdas": [
+   {
+    "cfdaNumber": "11.455",
+    "programTitle": "Marine Education"
+   }
+  ],
+  "synopsis": {
+   "opportunityId": 362034,
+   "version": 1,
+   "agencyCode": "DOC-DOCNOAAERA",
+   "agencyName": "Keisha Trent\nGrantor",
+   "agencyPhone": "3016281449",
+   "agencyContactPhone": "3016281449",
+   "agencyContactName": "Keisha Trent\nGrantor",
+   "agencyContactEmail": "akr.grants@noaa.gov",
+   "synopsisDesc": "<p>This announcement supports Executive Order 14276, Restoring America’s Seafood Competitiveness, by soliciting projects that support: workforce development for marine-related professions in marine science, aquaculture/mariculture, and maritime operations; enhancing seafood safety and management through training in seafood best practices, marketing, and fishery management; technological innovation in fishing practices; outreach and education for consumers on quality and sustainability of wild ca",
+   "responseDate": "May 01, 2028 12:00:00 AM EDT",
+   "responseDateDesc": "",
+   "postingDate": "Apr 23, 2026 12:00:00 AM EDT",
+   "archiveDate": "May 31, 2028 12:00:00 AM EDT",
+   "costSharing": false,
+   "estimatedFunding": "600000",
+   "estimatedFundingFormatted": "600,000",
+   "awardCeiling": "75000",
+   "awardCeilingFormatted": "75,000",
+   "awardFloor": "15000",
+   "awardFloorFormatted": "15,000",
+   "applicantEligibilityDesc": "Eligible applicants are individuals as legal entities (such as sole proprietorships or limited liability companies); commercial organizations; state, local, and tribal governments; institutions of higher education; and nonprofits. Federal agencies and their employees, as well as Federal instrumentalities (including employees and members), are not eligible to apply.",
+   "sendEmail": "Y",
+   "createTimeStamp": "Apr 23, 2026 01:52:55 PM EDT",
+   "createdDate": "Apr 23, 2026 01:46:53 PM EDT",
+   "lastUpdatedDate": "Apr 23, 2026 01:46:53 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "21",
+     "description": "Individuals"
+    },
+    {
+     "id": "22",
+     "description": "For profit organizations other than small businesses"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "23",
+     "description": "Small businesses"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    },
+    {
+     "id": "G",
+     "description": "Grant"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "AG",
+     "description": "Agriculture"
+    },
+    {
+     "id": "BC",
+     "description": "Business and Commerce"
+    },
+    {
+     "id": "ED",
+     "description": "Education"
+    },
+    {
+     "id": "ENV",
+     "description": "Environment"
+    },
+    {
+     "id": "FN",
+     "description": "Food and Nutrition"
+    },
+    {
+     "id": "NR",
+     "description": "Natural Resources"
+    },
+    {
+     "id": "ST",
+     "description": "Science and Technology and other Research and Development"
+    }
+   ],
+   "responseDateStr": "2028-05-01-00-00-00",
+   "postingDateStr": "2026-04-23-00-00-00",
+   "archiveDateStr": "2028-05-31-00-00-00",
+   "createTimeStampStr": "2026-04-23-13-52-55"
+  }
+ }
+]

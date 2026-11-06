@@ -1,0 +1,11 @@
+name: "NASA Space Grant consortia"
+sponsor: "NASA Space Grant (one consortium in every state)"
+sponsor_type: "State or regional"
+url: "https://spacegrant.org/"
+status: "between-cycles"
+deadline_note: "Each state consortium runs its own calls, often yearly; see your state's consortium site."
+eligibility: "Faculty, students, and K-12 educators at the consortium's member institutions in each state."
+summary: "State consortia fund faculty seed grants, STEM education and teacher programs, and student fellowships related to NASA's mission."
+kinds: ["Research", "K-12 and teachers", "Students and training", "Teaching and curriculum"]
+disciplines: ["Earth Science", "Engineering", "Physics", "Science Education"]
+checked: 2026-11-06

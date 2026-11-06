@@ -1,0 +1,93 @@
+{
+  "_about": "How federal funding calls are found on Grants.gov. Every keyword is searched among posted and forecasted opportunities; the combined results are then filtered by title. A call is kept when its title has an education term AND (a STEM+ term OR it comes from a STEM agency), unless it matches a drop pattern or comes from a dropped agency. Titles matching 'always' are kept regardless. Patterns are Python regular expressions, case-insensitive unless written as (?-i:...). agencies: display names by agency-code prefix (longest prefix wins).",
+  "api": "https://api.grants.gov/v1/api",
+  "listing_url": "https://www.grants.gov/search-results-detail/{id}",
+  "keywords": [
+    "education",
+    "STEM",
+    "teacher",
+    "teachers",
+    "undergraduate",
+    "curriculum",
+    "scholarship",
+    "students",
+    "learning",
+    "research education",
+    "instruction",
+    "school",
+    "college",
+    "Faculty Early Career",
+    "science",
+    "training",
+    "fellowship",
+    "workforce"
+  ],
+  "education": "\\beducation(?:al)?\\b|\\bSTEM\\b|\\bteach\\w*|\\bundergraduate\\w*|\\bstudents?\\b|\\bscholarships?\\b|\\bcurricul\\w*|\\blearning\\b|\\binstruction\\w*|\\bliteracy\\b|\\bK-?12\\b|\\bPreK\\b|\\bresearch experiences\\b|\\bformation of engineers\\b|\\bengineering formation\\b|\\bprofessional formation\\b|\\bbroadening participation\\b|\\bR25\\b|(?-i:\\bCAREER\\b)|\\bEarly Career Development\\b|\\btribal colleges\\b|\\bHBCU\\b|\\bminority[- ]serving\\b|\\bHispanic[- ]serving\\b|\\bworkforce development\\b|\\bmuseums?\\b",
+  "stem": "\\bSTEM\\b|\\bscien\\w*|\\bmath\\w*|\\bengineer\\w*|\\bcomput\\w*|\\btechnolog\\w*|\\bhealth\\b|\\bmedic\\w*|\\bnurs\\w*|\\bclinical\\b|\\bbiomedical\\b|\\bagricultur\\w*|\\bfood\\b|\\benvironment\\w*|\\bclimate\\b|\\bocean\\w*|\\bmarine\\b|\\bgeo\\w*|\\bbiolog\\w*|\\bchem\\w*|\\bphysic\\w*|\\bastro\\w*|\\bdata\\b|\\bcyber\\w*|\\bartificial intelligence\\b|\\bspace\\b|\\baerospace\\b|\\bquantum\\b|\\bdental\\b|\\bpharm\\w*|\\bveterinar\\w*|\\bforest\\w*|\\bnatural resources\\b|\\bwildlife\\b|\\bconservation\\b|\\benergy\\b|\\bnuclear\\b|\\bmanufactur\\w*",
+  "always": "\\bNoyce\\b|\\bLouis Stokes\\b|\\bLSAMP\\b|\\bHBCU-UP\\b|\\bGraduate Research Fellowship\\b|\\bDiscovery Research PreK-12\\b|\\bDRK-12\\b|\\bInformal STEM\\b|\\bEDU Core Research\\b|\\bCSforAll\\b|\\bScience Education Partnership\\b|\\bResearch Initiation in Engineering Formation\\b",
+  "drop": "\\bexchange\\b|\\bpolice\\b|\\blaw enforcement\\b|\\bviolence\\b|\\bsubstance\\b|\\bopioid|\\bfirearm|\\bjuvenile\\b|\\bhousing\\b|\\bHead Start\\b|\\bchild care\\b|\\bpostdoctoral\\b|\\bpostdoctorate\\b|\\bmentored\\b|\\bcareer development award\\b|\\bKirschstein\\b|\\bpathway to independence\\b|\\bK99\\b|\\bdissertation fellowship\\b|\\bacademic research enhancement\\b|\\bresearch enhancement award\\b|\\bR15\\b|\\b(?:machine|deep) learning\\b|\\blearning disabilit\\w*|\\bHAZMAT\\b|\\btechnical assistance\\b|\\bsmall business\\b|\\bSBIR\\b|\\bSTTR\\b|\\bscreening\\b|\\bskin lightening\\b",
+  "stem_agencies": [
+    "NSF",
+    "NASA",
+    "DOC-NOAA",
+    "DOC-DOCNOAAERA",
+    "USDA-NIFA",
+    "DOE",
+    "HHS-NIH",
+    "HHS-HRSA",
+    "HHS-CDC",
+    "DOC-NIST",
+    "EPA",
+    "DOI-USGS",
+    "ED"
+  ],
+  "drop_agencies": [
+    "DOS",
+    "USDOJ",
+    "DOJ",
+    "HHS-FDA",
+    "HHS-IHS",
+    "HHS-ACL"
+  ],
+  "skip_activity": [
+    "Request for Information"
+  ],
+  "agency_disciplines": {
+    "HHS-NIH": [
+      "Health Education"
+    ],
+    "HHS-HRSA": [
+      "Health Education"
+    ],
+    "HHS-CDC": [
+      "Health Education"
+    ],
+    "USDA-NIFA": [
+      "Agriculture"
+    ],
+    "DOC-NOAA": [
+      "Earth Science"
+    ],
+    "DOC-DOCNOAAERA": [
+      "Earth Science"
+    ]
+  },
+  "agencies": {
+    "NSF": "National Science Foundation (NSF)",
+    "NASA": "NASA",
+    "HHS-NIH": "National Institutes of Health (NIH)",
+    "HHS-HRSA": "Health Resources and Services Administration (HRSA)",
+    "HHS-CDC": "Centers for Disease Control and Prevention (CDC)",
+    "USDA-NIFA": "USDA National Institute of Food and Agriculture (NIFA)",
+    "USDA": "Department of Agriculture (USDA)",
+    "DOC-NOAA": "NOAA",
+    "DOC-DOCNOAAERA": "NOAA",
+    "DOC-NIST": "NIST",
+    "DOE": "Department of Energy (DOE)",
+    "DOD": "Department of Defense (DOD)",
+    "ED": "Department of Education",
+    "EPA": "Environmental Protection Agency (EPA)",
+    "DOI-USGS": "U.S. Geological Survey (USGS)",
+    "IMLS": "Institute of Museum and Library Services (IMLS)"
+  }
+}

@@ -1,0 +1,13 @@
+name: "SIGCSE Special Project Grants"
+sponsor: "ACM SIGCSE"
+sponsor_type: "Society or association"
+url: "https://sigcse.org/programs/special/"
+status: "open"
+deadline: 2026-11-15
+deadline_note: "Twice a year: May 15 and November 15."
+amount: "Up to $5,000"
+eligibility: "SIGCSE members."
+summary: "Small projects that bring new knowledge, shared resources, or good practice to computing education beyond the applicant's own institution."
+kinds: ["Teaching and curriculum", "Research"]
+disciplines: ["Engineering"]
+checked: 2026-11-06

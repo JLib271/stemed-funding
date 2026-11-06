@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: No GitHub account? Email the maintainer
+    url: https://github.com/JLib271/stemed-funding#add-or-correct-a-listing
+    about: The README gives the maintainer's email address.

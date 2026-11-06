@@ -1,0 +1,13 @@
+{
+  "title": "STEMEd+ Funding",
+  "tagline": "Open calls and deadlines for STEM+ education research and practice: federal agencies, foundations, professional societies, and state programs, in one place.",
+  "repo_url": "https://github.com/JLib271/stemed-funding",
+  "site_url": "https://jlib271.github.io/stemed-funding/",
+  "commons_home": "https://stemedplus.hcommons.org/",
+  "related": [
+    {"name": "STEMEd+ Digest", "url": "https://jlib271.github.io/STEMEd-Digest/", "about": "new journal articles, preprints, and dissertations"},
+    {"name": "STEM+ Education Research Graduate Programs", "url": "https://jlib271.github.io/stem-ed-research-programs/", "about": "where to study STEM+ education research"},
+    {"name": "STEMEd+ Jobs", "url": "https://github.com/JLib271/stemed-jobs", "about": "positions in STEM+ education"}
+  ],
+  "feed_size": 100
+}

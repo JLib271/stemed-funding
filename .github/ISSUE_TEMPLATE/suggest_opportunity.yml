@@ -1,0 +1,59 @@
+name: Suggest an opportunity
+description: A foundation, society, state, or federal program that funds STEM+ education research or practice.
+title: "Add: "
+labels: ["add opportunity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Federal calls posted on Grants.gov are collected automatically, so this form is mainly for
+        foundations, professional societies, and state or regional programs. A maintainer checks the
+        funder's page before listing it.
+  - type: input
+    id: name
+    attributes: {label: Program name, placeholder: "e.g. Research Grants on Education: Small"}
+    validations: {required: true}
+  - type: input
+    id: sponsor
+    attributes: {label: Funder, placeholder: "e.g. Spencer Foundation"}
+    validations: {required: true}
+  - type: dropdown
+    id: sponsor_type
+    attributes:
+      label: Funder type
+      options: ["Foundation", "Society or association", "State or regional", "Federal"]
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Link to the funder's page for this program}
+    validations: {required: true}
+  - type: input
+    id: deadline
+    attributes: {label: Next deadline, if known, placeholder: "YYYY-MM-DD, or 'rolling', or 'every May 15'"}
+  - type: input
+    id: amount
+    attributes: {label: Amount, placeholder: "e.g. Up to $50,000"}
+  - type: input
+    id: eligibility
+    attributes: {label: Who can apply}
+  - type: textarea
+    id: summary
+    attributes: {label: What it funds, description: "A sentence or two in your own words."}
+  - type: checkboxes
+    id: disciplines
+    attributes:
+      label: Disciplines (leave blank if open to all STEM+ fields)
+      options:
+        - label: Agriculture
+        - label: Bioscience
+        - label: Chemistry
+        - label: Earth Science
+        - label: Engineering (including computing)
+        - label: Health Education
+        - label: Learning Science
+        - label: Mathematics
+        - label: Physics
+        - label: Science Education
+  - type: input
+    id: states
+    attributes: {label: State or region, description: "Only if it is limited to certain states.", placeholder: "e.g. MI"}

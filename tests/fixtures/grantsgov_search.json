@@ -1,0 +1,248 @@
+{
+ "errorcode": 0,
+ "msg": "Webservice Succeeds",
+ "data": {
+  "hitCount": 15,
+  "startRecord": 0,
+  "oppHits": [
+   {
+    "id": "300997",
+    "number": "NNH18ZHA002N-MUSIC",
+    "title": "EONS 2018: Appendix E Minority University Research and Education Project (MUREP) for Sustainability and Innovation Collaborative &ndash; (MUSIC) ",
+    "agencyCode": "NASA",
+    "agency": "National Aeronautics and Space Administration",
+    "openDate": "02/22/2018",
+    "closeDate": "",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "43.008"
+    ]
+   },
+   {
+    "id": "334905",
+    "number": "RANDENDEPSTEMFY22RFI",
+    "title": "National Defense Education Program (NDEP) Science, Technology, Engineering, and Mathematics (STEM) Consortia Request for Information (RFI) for the Office of the Under Secretary of Defense (Research &amp; Engineering)",
+    "agencyCode": "DOD",
+    "agency": "Department of Defense",
+    "openDate": "07/27/2021",
+    "closeDate": "",
+    "oppStatus": "forecasted",
+    "cfdaList": [
+     "12.006"
+    ]
+   },
+   {
+    "id": "339594",
+    "number": "22-586",
+    "title": "Faculty Early Career Development Program (CAREER)",
+    "agencyCode": "NSF",
+    "agency": "U.S. National Science Foundation",
+    "openDate": "04/19/2022",
+    "closeDate": "07/28/2027",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "47.075",
+     "47.070",
+     "47.050",
+     "47.074",
+     "47.041",
+     "47.076",
+     "47.084",
+     "47.049"
+    ]
+   },
+   {
+    "id": "344124",
+    "number": "23-510",
+    "title": "Improving Undergraduate STEM Education: Directorate for STEM Education (IUSE: EDU)",
+    "agencyCode": "NSF",
+    "agency": "U.S. National Science Foundation",
+    "openDate": "10/20/2022",
+    "closeDate": "01/20/2027",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "47.076"
+    ]
+   },
+   {
+    "id": "350802",
+    "number": "24-503",
+    "title": "Research Experiences for Teachers (RET) in Engineering and Computer Science",
+    "agencyCode": "NSF",
+    "agency": "U.S. National Science Foundation",
+    "openDate": "10/31/2023",
+    "closeDate": "10/13/2027",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "47.041"
+    ]
+   },
+   {
+    "id": "351451",
+    "number": "FOR-FD-24-017",
+    "title": "OMHHE Educational Funding Opportunity: Expanding education on skin lightening products (U01) Clinical Trials Not Allowed",
+    "agencyCode": "HHS-FDA",
+    "agency": "Food and Drug Administration",
+    "openDate": "12/12/2023",
+    "closeDate": "",
+    "oppStatus": "forecasted",
+    "cfdaList": [
+     "93.103"
+    ]
+   },
+   {
+    "id": "357498",
+    "number": "25-514",
+    "title": "NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM)",
+    "agencyCode": "NSF",
+    "agency": "U.S. National Science Foundation",
+    "openDate": "12/03/2024",
+    "closeDate": "03/02/2027",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "47.076"
+    ]
+   },
+   {
+    "id": "359157",
+    "number": "PAR-27-077",
+    "title": "NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)",
+    "agencyCode": "HHS-NIH11",
+    "agency": "National Institutes of Health",
+    "openDate": "05/05/2026",
+    "closeDate": "05/25/2029",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "93.213",
+     "93.855",
+     "93.866",
+     "93.286",
+     "93.859",
+     "93.279",
+     "93.310",
+     "93.307",
+     "93.121",
+     "93.313",
+     "93.867",
+     "93.242",
+     "93.172",
+     "93.361"
+    ]
+   },
+   {
+    "id": "360350",
+    "number": "25-545",
+    "title": "NSF STEM K-12 (STEM K-12)",
+    "agencyCode": "NSF",
+    "agency": "U.S. National Science Foundation",
+    "openDate": "08/22/2025",
+    "closeDate": "10/07/2076",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "47.076"
+    ]
+   },
+   {
+    "id": "362034",
+    "number": "NOAA-NMFS-AK-2026-33268",
+    "title": "2026 Alaska Marine Education and Training Mini-Grant Program",
+    "agencyCode": "DOC-DOCNOAAERA",
+    "agency": "DOC NOAA - ERA Production",
+    "openDate": "04/23/2026",
+    "closeDate": "05/01/2028",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "11.455"
+    ]
+   },
+   {
+    "id": "363111",
+    "number": "HRSA-27-017",
+    "title": "Teaching Health Center Graduate Medical Education (THCGME) Program",
+    "agencyCode": "HHS-HRSA",
+    "agency": "Health Resources and Services Administration",
+    "openDate": "10/29/2026",
+    "closeDate": "12/11/2026",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "93.530"
+    ]
+   },
+   {
+    "id": "363846",
+    "number": "USDA-NIFA-HSI-011903",
+    "title": "Hispanic-Serving Institutions Education Grants Program",
+    "agencyCode": "USDA-NIFA",
+    "agency": "National Institute of Food and Agriculture",
+    "openDate": "09/10/2026",
+    "closeDate": "12/03/2026",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "10.223"
+    ]
+   },
+   {
+    "id": "334092",
+    "number": "AFHAR-FY21-01",
+    "title": "Culture of Research and University Exchanges Prep program (CRUX) in One Health and Agricultural STEM",
+    "agencyCode": "DOS-ZWE",
+    "agency": "U.S. Mission to Zimbabwe",
+    "openDate": "06/10/2021",
+    "closeDate": "",
+    "oppStatus": "forecasted",
+    "cfdaList": [
+     "19.040"
+    ]
+   },
+   {
+    "id": "350018",
+    "number": "PD-23-1242",
+    "title": "Plasma Physics",
+    "agencyCode": "NSF",
+    "agency": "U.S. National Science Foundation",
+    "openDate": "08/29/2023",
+    "closeDate": "11/16/2026",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "47.049"
+    ]
+   },
+   {
+    "id": "358830",
+    "number": "PA-25-423",
+    "title": "Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32)",
+    "agencyCode": "HHS-NIH11",
+    "agency": "National Institutes of Health",
+    "openDate": "06/12/2025",
+    "closeDate": "05/07/2028",
+    "oppStatus": "posted",
+    "cfdaList": [
+     "93.361",
+     "93.859",
+     "93.866",
+     "93.121",
+     "93.839",
+     "93.233",
+     "93.865",
+     "93.113",
+     "93.242",
+     "93.172",
+     "93.173",
+     "93.838",
+     "93.846",
+     "93.840",
+     "93.279",
+     "93.307",
+     "93.847",
+     "93.867",
+     "93.213",
+     "93.837",
+     "93.273",
+     "93.286",
+     "93.310",
+     "93.855"
+    ]
+   }
+  ]
+ }
+}
