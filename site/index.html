@@ -130,7 +130,7 @@
     <p>Know a program we are missing, or see something out of date? <a id="suggest2" href="#">Suggest an opportunity</a> or <a id="update" href="#">report a correction</a> on GitHub, or <a id="mail" href="#">email the maintainer</a>.</p>
     <h2>RSS</h2>
     <p><a href="feeds/new.xml">Newly listed opportunities</a>, for feed readers.</p>
-    <h2>More STEMEd+</h2>
+    <h2><a id="morehead" href="https://stemedplus.hcommons.org/">More from STEMEd+ Commons</a></h2>
     <ul id="related"></ul>
     <p>Funded work to share? Add papers, instruments, lesson plans, and data to the <a id="commons" href="#">STEMEd+ Commons</a>.</p>
     <details id="reviewbox" hidden><summary id="reviewsum">For maintainers</summary><ul id="reviewlist"></ul></details>
@@ -290,6 +290,7 @@
       '&body=' + encodeURIComponent('Program name:\nFunder:\nLink to the funder\'s page:\nNext deadline (if known):\nAmount:\nWho can apply:\nWhat it funds:\nCorrection (if this is about an existing listing):\n');
     el('repo').href = site.repo_url; ext(el('repo'));
     el('commons').href = site.commons_home; ext(el('commons'));
+    el('morehead').href = site.commons_home; ext(el('morehead'));
     var ics = new URL('feeds/deadlines.ics', location.href).href;
     el('icsurl').textContent = ics;
     el('copyics').addEventListener('click', function () { navigator.clipboard && navigator.clipboard.writeText(ics); el('copyics').textContent = 'Copied'; });
