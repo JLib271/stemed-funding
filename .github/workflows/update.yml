@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Refresh shared disciplines from HuMeta
+        run: python -m stemed_funding.stemedplus_disciplines --refresh
       - name: Run tests
         run: python -m unittest discover -s tests -t . -v
       - name: Check the listings in opportunities/
@@ -52,6 +54,10 @@ jobs:
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v6
+      - name: Refresh shared disciplines from HuMeta
+        run: python -m stemed_funding.stemedplus_disciplines --refresh
+      - name: Run tests
+        run: python -m unittest discover -s tests -t . -v
       - name: Collect federal calls and build the site
         run: >-
           python -m stemed_funding
