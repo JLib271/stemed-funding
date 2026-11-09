@@ -6,6 +6,11 @@
   "commons_home": "https://stemedplus.hcommons.org/",
   "related": [
     {
+      "name": "STEMEd+ Conferences",
+      "url": "https://jlib271.github.io/stemed-conferences/",
+      "about": "meetings, proposal deadlines, and travel support for STEM+ education"
+    },
+    {
       "name": "STEMEd+ Digest",
       "url": "https://jlib271.github.io/STEMEd-Digest/",
       "about": "new journal articles, preprints, and dissertations"
