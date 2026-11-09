@@ -27,9 +27,8 @@
     },
     "disciplines": {
       "type": "array", "uniqueItems": true,
-      "description": "Leave empty for programs open to all STEM+ fields.",
-      "items": {"enum": ["Agriculture", "Bioscience", "Chemistry", "Earth Science", "Engineering", "Health Education",
-                         "Learning Science", "Mathematics", "Physics", "Science Education"]}
+      "description": "Leave empty for programs open to all STEM+ fields. Labels from the STEMEd+ discipline list (stemed_funding/stemedplus_disciplines.json, kept in HuMeta); the build checks them against that list.",
+      "items": {"type": "string"}
     },
     "states": {
       "type": "array", "uniqueItems": true,

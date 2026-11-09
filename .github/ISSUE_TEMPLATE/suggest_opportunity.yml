@@ -11,11 +11,11 @@ body:
         funder's page before listing it.
   - type: input
     id: name
-    attributes: {label: Program name, placeholder: "e.g. Research Grants on Education: Small"}
+    attributes: {label: "Program name", placeholder: "e.g. Research Grants on Education: Small"}
     validations: {required: true}
   - type: input
     id: sponsor
-    attributes: {label: Funder, placeholder: "e.g. Spencer Foundation"}
+    attributes: {label: "Funder", placeholder: "e.g. Spencer Foundation"}
     validations: {required: true}
   - type: dropdown
     id: sponsor_type
@@ -25,20 +25,20 @@ body:
     validations: {required: true}
   - type: input
     id: url
-    attributes: {label: Link to the funder's page for this program}
+    attributes: {label: "Link to the funder's page for this program"}
     validations: {required: true}
   - type: input
     id: deadline
-    attributes: {label: Next deadline, if known, placeholder: "YYYY-MM-DD, or 'rolling', or 'every May 15'"}
+    attributes: {label: "Next deadline, if known", placeholder: "YYYY-MM-DD, or 'rolling', or 'every May 15'"}
   - type: input
     id: amount
-    attributes: {label: Amount, placeholder: "e.g. Up to $50,000"}
+    attributes: {label: "Amount", placeholder: "e.g. Up to $50,000"}
   - type: input
     id: eligibility
-    attributes: {label: Who can apply}
+    attributes: {label: "Who can apply"}
   - type: textarea
     id: summary
-    attributes: {label: What it funds, description: "A sentence or two in your own words."}
+    attributes: {label: "What it funds", description: "A sentence or two in your own words."}
   - type: checkboxes
     id: disciplines
     attributes:
@@ -50,10 +50,12 @@ body:
         - label: Earth Science
         - label: Engineering (including computing)
         - label: Health Education
+        - label: History & Philosophy of Science (including history of medicine and science and technology studies)
         - label: Learning Science
         - label: Mathematics
         - label: Physics
+        - label: Science & Health Communication (including risk and climate communication, public engagement, and science journalism)
         - label: Science Education
   - type: input
     id: states
-    attributes: {label: State or region, description: "Only if it is limited to certain states.", placeholder: "e.g. MI"}
+    attributes: {label: "State or region", description: "Only if it is limited to certain states.", placeholder: "e.g. MI"}

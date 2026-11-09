@@ -8,9 +8,13 @@ from typing import List, Tuple
 import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 
+from .disciplines import DISCIPLINES
+
 ROOT = Path(__file__).resolve().parent.parent
 FOLDER = ROOT / "opportunities"
 SCHEMA = json.loads((ROOT / "schema" / "opportunity.schema.json").read_text(encoding="utf-8"))
+# The allowed disciplines are the shared STEMEd+ list, not a copy in the schema file.
+SCHEMA["properties"]["disciplines"]["items"] = {"enum": list(DISCIPLINES)}
 REVIEW_AFTER_DAYS = 180
 
 

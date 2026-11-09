@@ -32,6 +32,11 @@ class FederalTests(unittest.TestCase):
         self.assertFalse(rules.keep("Ruth L. Kirschstein NRSA Individual Postdoctoral Fellowship", "HHS-NIH11"))
         self.assertFalse(rules.keep("Culture of Research and University Exchanges in Agricultural STEM", "DOS-ZWE"))
         self.assertFalse(rules.keep("Integrating Machine Learning with Fluid Dynamics Models", "HHS-FDA"))
+        # History & philosophy of science and science & health communication are kept as fields.
+        self.assertTrue(rules.keep("Science and Technology Studies (STS)", "NSF"))
+        self.assertTrue(rules.keep("NLM Grants for Scholarly Works in Biomedicine and Health (G13)", "HHS-NIH11"))
+        self.assertTrue(rules.keep("Health Communication Research to Reduce Disparities", "HHS-NIH11"))
+        self.assertFalse(rules.keep("Public Humanities Projects", "NEH"))
 
     def test_search_combines_keywords_and_filters(self):
         calls = []
@@ -88,6 +93,9 @@ class ClassifyTests(unittest.TestCase):
     def test_disciplines_and_kinds(self):
         self.assertEqual(classify.disciplines("Undergraduate chemistry laboratory curriculum"), ["Chemistry"])
         self.assertEqual(classify.disciplines("Prompt engineering for teachers"), [])
+        self.assertEqual(classify.disciplines("Science and Technology Studies (STS)"), ["History & Philosophy of Science"])
+        self.assertEqual(classify.disciplines("Risk communication in public health emergencies"),
+                         ["Health Education", "Science & Health Communication"])
         self.assertTrue(classify.open_to_all(classify.disciplines("Improving STEM education")))
         self.assertIn("K-12 and teachers", classify.kinds("Research Experiences for Teachers"))
         self.assertIn("Early career", classify.kinds("Faculty Early Career Development Program (CAREER)"))

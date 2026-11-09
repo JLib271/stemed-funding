@@ -12,7 +12,7 @@ Open calls and deadlines for STEM+ education research and practice, in one place
   SIGCSE, MAA, NAGT, NASA Space Grant consortia, and state STEM programs. Kept by hand, one file
   per program in [`opportunities/`](opportunities/), each checked against the funder's own page.
 
-The focus is the United States. Disciplines use the same ten categories as
+The focus is the United States. Disciplines use the same categories as
 [STEMEd+ Jobs](https://github.com/JLib271/stemed-jobs), the
 [STEMEd+ Digest](https://github.com/JLib271/STEMEd-Digest), and the
 [STEM+ Education Research Graduate Programs](https://github.com/JLib271/stem-ed-research-programs) list.
@@ -53,7 +53,9 @@ Deadlines are shown the way agencies post them:
 
 Expired calls and forecasts whose estimated date has passed are left out. Disciplines for federal
 calls come from the title (NIH, HRSA, and CDC calls are Health Education; NIFA calls are
-Agriculture). Calls that name no particular field are marked "All STEM+ fields" and appear under
+Agriculture). Calls in the history and philosophy of science (including science and technology
+studies and the history of medicine) and in science and health communication are kept even when
+their titles do not mention education. Calls that name no particular field are marked "All STEM+ fields" and appear under
 every discipline. "What it funds" is matched automatically from the title and description, so
 treat it as a guide.
 
@@ -123,5 +125,8 @@ repository never needs data commits. Turn it on once in **Settings → Pages →
 
 ## License
 
-Code: MIT. Listings in `opportunities/`: [CC BY 4.0](opportunities/LICENSE.md). The discipline rules
-in `stemed_funding/disciplines.py` are copied from [STEMEd+ Jobs](https://github.com/JLib271/stemed-jobs) (MIT).
+Code: MIT. Listings in `opportunities/`: [CC BY 4.0](opportunities/LICENSE.md). The disciplines
+(labels, definitions, and matching words) come from the STEMEd+ discipline list shared across
+STEMEd+ Commons, kept in [HuMeta](https://github.com/JLib271/HuMeta)
+(`standard/humeta/stemedplus_disciplines.json`) and stored here as
+`stemed_funding/stemedplus_disciplines.json`; each build refreshes the stored copy.
