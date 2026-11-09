@@ -37,6 +37,8 @@ class FederalTests(unittest.TestCase):
         self.assertTrue(rules.keep("NLM Grants for Scholarly Works in Biomedicine and Health (G13)", "HHS-NIH11"))
         self.assertTrue(rules.keep("Health Communication Research to Reduce Disparities", "HHS-NIH11"))
         self.assertFalse(rules.keep("Public Humanities Projects", "NEH"))
+        self.assertTrue(rules.keep("Dynamics of Integrated Socio-Environmental Systems (DISES)", "NSF"))
+        self.assertTrue(rules.keep("Human Dimensions of Wildlife Management Research", "DOI-FWS"))
 
     def test_search_combines_keywords_and_filters(self):
         calls = []
@@ -94,6 +96,8 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(classify.disciplines("Undergraduate chemistry laboratory curriculum"), ["Chemistry"])
         self.assertEqual(classify.disciplines("Prompt engineering for teachers"), [])
         self.assertEqual(classify.disciplines("Science and Technology Studies (STS)"), ["History & Philosophy of Science"])
+        self.assertEqual(classify.disciplines("Dynamics of Integrated Socio-Environmental Systems"), ["Human Dimensions"])
+        self.assertEqual(classify.disciplines("Specialty Crop Research Initiative: entomology and horticulture"), ["Agriculture", "Bioscience"])
         self.assertEqual(classify.disciplines("Risk communication in public health emergencies"),
                          ["Health Education", "Science & Health Communication"])
         self.assertTrue(classify.open_to_all(classify.disciplines("Improving STEM education")))

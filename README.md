@@ -54,8 +54,9 @@ Deadlines are shown the way agencies post them:
 Expired calls and forecasts whose estimated date has passed are left out. Disciplines for federal
 calls come from the title (NIH, HRSA, and CDC calls are Health Education; NIFA calls are
 Agriculture). Calls in the history and philosophy of science (including science and technology
-studies and the history of medicine) and in science and health communication are kept even when
-their titles do not mention education. Calls that name no particular field are marked "All STEM+ fields" and appear under
+studies and the history of medicine), in human dimensions (social-ecological and socio-environmental
+systems), and in science and health communication are kept even when their titles do not mention
+education. Calls that name no particular field are marked "All STEM+ fields" and appear under
 every discipline. "What it funds" is matched automatically from the title and description, so
 treat it as a guide.
 
