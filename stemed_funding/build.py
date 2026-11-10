@@ -106,7 +106,8 @@ def run(out: Path, previous: Optional[str], today: dt.date, fetch_federal=grants
     (out / "opportunities.json").write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
                                             encoding="utf-8")
     shutil.copyfile(ROOT / "site" / "index.html", out / "index.html")
-    shutil.copyfile(ROOT / "site" / "stemedplus-commons-logo.png", out / "stemedplus-commons-logo.png")
+    for name in ("stemedplus-commons-logo.png", "stemedplus-commons-logo-white.png", "stemedplus-theme.css", "manrope.woff"):
+        shutil.copyfile(ROOT / "site" / name, out / name)
     feeds.write_rss(out / "feeds" / "new.xml", items, site, now)
     feeds.write_ics(out / "feeds" / "deadlines.ics", items, site, now)
     print(f"Wrote {len(items)} opportunities ({len(federal)} federal); {len(payload['review'])} listing(s) to re-check.")
