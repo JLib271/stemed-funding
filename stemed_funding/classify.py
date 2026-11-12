@@ -49,6 +49,9 @@ KINDS = (
                                                   r"|\bcommunity\b|\bpartnership award\b", re.IGNORECASE)),
 )
 KIND_NAMES = tuple(name for name, _ in KINDS)
+# Small grants and awards for teachers and instructors. Only curated listings carry these; the
+# Grants.gov classifier never assigns them, because federal awards are not classroom mini-grants.
+TEACHER_KINDS = ("Classroom grants", "Teaching awards", "Teaching travel and professional development")
 
 
 def plain(text: str) -> str:

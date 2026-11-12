@@ -8,6 +8,6 @@ deadline_note: "Twice a year: May 15 and November 15."
 amount: "Up to $5,000"
 eligibility: "SIGCSE members."
 summary: "Small projects that bring new knowledge, shared resources, or good practice to computing education beyond the applicant's own institution."
-kinds: ["Teaching and curriculum", "Research"]
+kinds: ["Teaching and curriculum", "Research", "Classroom grants"]
 disciplines: ["Engineering"]
-checked: 2026-11-06
+checked: 2026-11-12

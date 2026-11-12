@@ -17,10 +17,10 @@ def describe(item: dict) -> str:
     return ". ".join(p.rstrip(".") for p in parts if p) + "."
 
 
-def write_rss(path: Path, items: List[dict], site: dict, now: dt.datetime) -> None:
+def write_rss(path: Path, items: List[dict], site: dict, now: dt.datetime, label: str = "newly listed") -> None:
     rss = ET.Element("rss", version="2.0")
     ch = ET.SubElement(rss, "channel")
-    ET.SubElement(ch, "title").text = f"{site['title']}: newly listed"
+    ET.SubElement(ch, "title").text = f"{site['title']}: {label}"
     ET.SubElement(ch, "link").text = site["site_url"]
     ET.SubElement(ch, "description").text = site["tagline"]
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(now)

@@ -8,6 +8,7 @@ Output (all static, served by GitHub Pages):
     opportunities.json    everything listed; also tells the next run when each was first seen
     feeds/new.xml         RSS of newly listed opportunities
     feeds/deadlines.ics   calendar of every dated deadline (subscribe in Google, Outlook, Apple)
+    feeds/teachers.xml    RSS of small grants and awards for teachers and instructors
 """
 import argparse
 import datetime as dt
@@ -95,7 +96,8 @@ def run(out: Path, previous: Optional[str], today: dt.date, fetch_federal=grants
         "today": today.isoformat(),
         "site": site,
         "disciplines": list(DISCIPLINES),
-        "kinds": list(classify.KIND_NAMES),
+        "kinds": list(classify.KIND_NAMES) + list(classify.TEACHER_KINDS),
+        "teacher_kinds": list(classify.TEACHER_KINDS),
         "sponsor_types": SPONSOR_TYPES,
         "status_labels": STATUS_LABELS,
         "status": status,
@@ -110,6 +112,8 @@ def run(out: Path, previous: Optional[str], today: dt.date, fetch_federal=grants
         shutil.copyfile(ROOT / "site" / name, out / name)
     feeds.write_rss(out / "feeds" / "new.xml", items, site, now)
     feeds.write_ics(out / "feeds" / "deadlines.ics", items, site, now)
+    teacher = [i for i in items if set(i["kinds"]) & set(classify.TEACHER_KINDS)]
+    feeds.write_rss(out / "feeds" / "teachers.xml", teacher, site, now, "small grants and awards for teachers and instructors")
     print(f"Wrote {len(items)} opportunities ({len(federal)} federal); {len(payload['review'])} listing(s) to re-check.")
     return payload
 

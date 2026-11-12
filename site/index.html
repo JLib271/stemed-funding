@@ -6,6 +6,7 @@
 <title>STEMEd+ Funding</title>
 <meta name="description" content="Open calls and deadlines for STEM+ education research and practice: federal agencies, foundations, professional societies, and state programs, in one place.">
 <link rel="alternate" type="application/rss+xml" title="Newly listed funding" href="feeds/new.xml">
+<link rel="alternate" type="application/rss+xml" title="Small grants and awards for teachers and instructors" href="feeds/teachers.xml">
 <style>
   :root { --ink:#1d2433; --muted:#5b6475; --line:#dde2ea; --bg:#f7f8fa; --card:#fff; --accent:#1f5f8b; --soft:#e6f0f7; --softline:#c9dcea;
           --soon:#a3261b; --soonbg:#fdecea; --mid:#7a4f00; --midbg:#fdf3dc; --ok:#1f6b3a; --okbg:#e7f4ec; }
@@ -82,6 +83,7 @@
     <p id="tagline"></p>
     <div class="links">
       <a class="btn" href="#calendar">Deadline calendar</a>
+      <a class="btn secondary" href="#kind=teachers&amp;status=" id="teachersbtn">Small grants and awards for teachers</a>
       <a class="btn secondary" href="feeds/new.xml">New listings (RSS)</a>
       <a class="btn secondary" id="suggest" href="#">Suggest an opportunity</a>
     </div>
@@ -137,7 +139,7 @@
     <h2>Add or correct a listing</h2>
     <p>Know a program we are missing, or see something out of date? <a id="suggest2" href="#">Suggest an opportunity</a> or <a id="update" href="#">report a correction</a> on GitHub, or <a id="mail" href="#">email the maintainer</a>.</p>
     <h2>RSS</h2>
-    <p><a href="feeds/new.xml">Newly listed opportunities</a>, for feed readers.</p>
+    <p><a href="feeds/new.xml">Newly listed opportunities</a> and <a href="feeds/teachers.xml">small grants and awards for teachers and instructors</a>, for feed readers.</p>
     <div class="join join-bottom" role="note"><p><strong>STEMEd+ Funding is part of STEMEd+ Commons.</strong> Join free to deposit instruments in the <a href="https://works.hcommons.org/collections/humetainstrumentlibrary/" target="_blank" rel="noopener noreferrer">HuMeta Instrument Library collection<span class="vh"> (opens in a new tab)</span></a>, share your work in the <a href="https://works.hcommons.org/collections/stemedplus/" target="_blank" rel="noopener noreferrer">STEMEd+ collection<span class="vh"> (opens in a new tab)</span></a>, follow new work, and connect with STEM+ education researchers. You can sign in with GitHub, Google, ORCID, or your institution.</p><p><a href="https://stemedplus.hcommons.org/" target="_blank" rel="noopener noreferrer">Visit STEMEd+ Commons<span class="vh"> (opens in a new tab)</span></a> · <a href="https://support.hcommons.org/profiles/login-and-registration/" target="_blank" rel="noopener noreferrer">How to join<span class="vh"> (opens in a new tab)</span></a></p></div>
     <h2><a id="morehead" href="https://stemedplus.hcommons.org/">More from STEMEd+ Commons</a></h2>
     <ul id="related"></ul>
@@ -200,7 +202,7 @@
     if (t && i.sponsor_type !== t) return false;
     if (s && i.sponsor !== s) return false;
     if (dsc && !i.all_fields && i.disciplines.indexOf(dsc) === -1) return false;
-    if (k && i.kinds.indexOf(k) === -1) return false;
+    if (k === 'teachers' ? !i.kinds.some(function (x) { return state.d.teacher_kinds.indexOf(x) !== -1; }) : k && i.kinds.indexOf(k) === -1) return false;
     if (st === 'active' && ACTIVE.indexOf(i.status) === -1) return false;
     if (st === 'dated' && !dated(i)) return false;
     if (w && !(dated(i) && daysUntil(i.deadline) <= +w)) return false;
@@ -292,7 +294,10 @@
     fill(el('sponsor'), sponsors.sort(function (a, b) { return a.localeCompare(b); }));
     fill(el('discipline'), d.disciplines);
     fill(el('kind'), d.kinds);
+    var tk = node('option', '', 'For teachers and instructors: grants, awards, and travel'); tk.value = 'teachers';
+    el('kind').insertBefore(tk, el('kind').options[1]);
     readHash();
+    el('teachersbtn').addEventListener('click', function (e) { e.preventDefault(); el('kind').value = 'teachers'; el('status').value = ''; changed(); el('list').scrollIntoView(); });
     ['suggest', 'suggest2'].forEach(function (id) { el(id).href = issueUrl('suggest_opportunity.yml'); ext(el(id)); });
     el('update').href = issueUrl('update_opportunity.yml'); ext(el('update'));
     el('mail').href = 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('STEMEd+ Funding: new or corrected listing') +

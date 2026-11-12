@@ -23,7 +23,9 @@
     "kinds": {
       "type": "array", "uniqueItems": true,
       "items": {"enum": ["Research", "Teaching and curriculum", "Students and training", "Early career", "K-12 and teachers",
-                         "Institutional capacity", "Broadening participation", "Outreach and informal learning"]}
+                         "Institutional capacity", "Broadening participation", "Outreach and informal learning",
+                         "Classroom grants", "Teaching awards", "Teaching travel and professional development"]},
+      "description": "The last three are for teachers and instructors: classroom mini-grants, teaching awards, and support to travel to teaching workshops and conferences or for other professional learning."
     },
     "disciplines": {
       "type": "array", "uniqueItems": true,

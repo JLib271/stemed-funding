@@ -195,3 +195,17 @@ class BuildTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TeacherKindTests(unittest.TestCase):
+    def test_teacher_kinds_are_never_auto_assigned(self):
+        from stemed_funding import classify
+        text = "Classroom grants and teaching awards for teachers to travel to professional development workshops"
+        self.assertFalse(set(classify.kinds(text)) & set(classify.TEACHER_KINDS))
+
+    def test_curated_teacher_listings_validate(self):
+        from stemed_funding import classify, curated
+        entries, problems = curated.load()
+        self.assertEqual(problems, [])
+        tagged = {k for _, e in entries for k in e.get("kinds", []) if k in classify.TEACHER_KINDS}
+        self.assertEqual(tagged, set(classify.TEACHER_KINDS))
