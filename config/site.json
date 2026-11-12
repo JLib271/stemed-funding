@@ -6,6 +6,11 @@
   "commons_home": "https://stemedplus.hcommons.org/",
   "related": [
     {
+      "name": "STEMEd+ Deadlines",
+      "url": "https://jlib271.github.io/stemed-deadlines/",
+      "about": "every STEMEd+ deadline in one page and one calendar"
+    },
+    {
       "name": "STEMEd+ Conferences",
       "url": "https://jlib271.github.io/stemed-conferences/",
       "about": "meetings, proposal deadlines, and travel support for STEM+ education"
