@@ -129,6 +129,6 @@ repository never needs data commits. Turn it on once in **Settings → Pages →
 
 Code: MIT. Listings in `opportunities/`: [CC BY 4.0](opportunities/LICENSE.md). The disciplines
 (labels, definitions, and matching words) come from the STEMEd+ discipline list shared across
-STEMEd+ Commons, kept in [HuMeta](https://github.com/JLib271/HuMeta)
-(`standard/humeta/stemedplus_disciplines.json`) and stored here as
+STEMEd+ Commons, kept in the [HuMeta profile](https://github.com/JLib271/humeta-profile)
+(`stemedplus_disciplines.json`) and stored here as
 `stemed_funding/stemedplus_disciplines.json`; each build refreshes the stored copy.
