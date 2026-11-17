@@ -57,6 +57,7 @@ body:
         - label: Physics
         - label: Science & Health Communication (including risk and climate communication, public engagement, and science journalism)
         - label: Science Education
+        - label: "STEAM: Arts+STEM"
   - type: input
     id: states
     attributes: {label: "State or region", description: "Only if it is limited to certain states.", placeholder: "e.g. MI"}
