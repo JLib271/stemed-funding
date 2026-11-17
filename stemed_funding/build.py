@@ -20,6 +20,7 @@ from typing import Dict, List, Optional
 from urllib.request import Request, urlopen
 
 from . import classify, curated, feeds, grantsgov
+from . import stemedplus_disciplines
 from .disciplines import DISCIPLINES
 from .http import USER_AGENT
 
@@ -96,6 +97,7 @@ def run(out: Path, previous: Optional[str], today: dt.date, fetch_federal=grants
         "today": today.isoformat(),
         "site": site,
         "disciplines": list(DISCIPLINES),
+        "named_only": list(stemedplus_disciplines.named_only_labels()),  # never listed for "all STEM+ fields"
         "kinds": list(classify.KIND_NAMES) + list(classify.TEACHER_KINDS),
         "teacher_kinds": list(classify.TEACHER_KINDS),
         "sponsor_types": SPONSOR_TYPES,

@@ -202,7 +202,9 @@
     if (q && (i.title + ' ' + i.sponsor + ' ' + i.number + ' ' + i.summary + ' ' + (i.amount || '')).toLowerCase().indexOf(q) === -1) return false;
     if (t && i.sponsor_type !== t) return false;
     if (s && i.sponsor !== s) return false;
-    if (dsc && !i.all_fields && i.disciplines.indexOf(dsc) === -1) return false;
+    // Listings open to all STEM+ fields show under every discipline except named-only ones (STEAM: Arts+STEM).
+    var general = i.all_fields && (state.d.named_only || []).indexOf(dsc) === -1;
+    if (dsc && !general && i.disciplines.indexOf(dsc) === -1) return false;
     if (k === 'teachers' ? !i.kinds.some(function (x) { return state.d.teacher_kinds.indexOf(x) !== -1; }) : k && i.kinds.indexOf(k) === -1) return false;
     if (st === 'active' && ACTIVE.indexOf(i.status) === -1) return false;
     if (st === 'dated' && !dated(i)) return false;
