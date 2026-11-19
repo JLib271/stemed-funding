@@ -86,7 +86,7 @@
       <a class="btn" href="#calendar">Deadline calendar</a>
       <a class="btn secondary" href="#kind=teachers&amp;status=" id="teachersbtn">Small grants and awards for teachers</a>
       <a class="btn secondary" href="feeds/new.xml">New listings (RSS)</a>
-      <a class="btn secondary" id="suggest" href="#">Suggest an opportunity</a>
+      <a class="btn secondary" id="suggest" href="#add">Suggest an opportunity</a>
     </div>
   </div>
 </header>
@@ -137,7 +137,7 @@
     <p><strong>Federal:</strong> <span id="fedcount"></span> calls from <a href="https://www.grants.gov/">Grants.gov</a>, where NSF, NIH, USDA, NOAA, NASA, the Department of Education, and other agencies post their calls. They are found by keyword and kept by title, so a call can be missed or, less often, listed when it is not about education. Checked every day.</p>
     <p><strong>Foundations, societies, and state programs:</strong> <span id="curcount"></span> programs kept by hand, each checked against the funder's page on the date shown. Programs between cycles stay listed so you know what is coming.</p>
     <p>Disciplines use the same categories as STEMEd+ Jobs, the STEMEd+ Digest, and the STEM+ Education Research Graduate Programs list, including History &amp; Philosophy of Science, Human Dimensions, and Science &amp; Health Communication, which cover those fields themselves as well as teaching in them. Programs open to all STEM+ fields appear under every discipline. For federal calls, disciplines come from the title and "What it funds" is matched automatically, so treat both as a guide.</p>
-    <h2>Add or correct a listing</h2>
+    <h2 id="add">Add or correct a listing</h2>
     <p>Know a program we are missing, or see something out of date? <a id="suggest2" href="#">Suggest an opportunity</a> or <a id="update" href="#">report a correction</a> on GitHub, or <a id="mail" href="#">email the maintainer</a>.</p>
     <h2>RSS</h2>
     <p><a href="feeds/new.xml">Newly listed opportunities</a> and <a href="feeds/teachers.xml">small grants and awards for teachers and instructors</a>, for feed readers.</p>
@@ -301,7 +301,7 @@
     el('kind').insertBefore(tk, el('kind').options[1]);
     readHash();
     el('teachersbtn').addEventListener('click', function (e) { e.preventDefault(); el('kind').value = 'teachers'; el('status').value = ''; changed(); el('list').scrollIntoView(); });
-    ['suggest', 'suggest2'].forEach(function (id) { el(id).href = issueUrl('suggest_opportunity.yml'); ext(el(id)); });
+    el('suggest2').href = issueUrl('suggest_opportunity.yml'); ext(el('suggest2'));
     el('update').href = issueUrl('update_opportunity.yml'); ext(el('update'));
     el('mail').href = 'mailto:' + MAINTAINER + '?subject=' + encodeURIComponent('STEMEd+ Funding: new or corrected listing') +
       '&body=' + encodeURIComponent('Program name:\nFunder:\nLink to the funder\'s page:\nNext deadline (if known):\nAmount:\nWho can apply:\nWhat it funds:\nCorrection (if this is about an existing listing):\n');
@@ -326,6 +326,7 @@
     el('more').addEventListener('click', function () { state.shown += PAGE; render(); });
     el('share').addEventListener('click', function () { navigator.clipboard && navigator.clipboard.writeText(location.href); el('share').textContent = 'Link copied'; });
     render();
+    if (location.hash === '#add') el('add').scrollIntoView();
   }
 
   fetch('opportunities.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(init).catch(function () {
