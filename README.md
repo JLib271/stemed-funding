@@ -1,6 +1,6 @@
 # STEMEd+ Funding
 
-Open calls and deadlines for STEM+ teaching and research, in one place:
+Open calls and deadlines for STEM+ teaching and STEM+ education research, in one place:
 
 * **Federal calls** from [Grants.gov](https://www.grants.gov/), where NSF (IUSE, S-STEM, ATE,
   CAREER, STEM K-12, and more), NIH (research education R25 and SEPA), USDA NIFA, NOAA, NASA,
