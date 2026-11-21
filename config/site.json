@@ -1,38 +1,38 @@
 {
   "title": "STEMEd+ Funding",
   "tagline": "Open calls and deadlines for STEM+ teaching and STEM+ education research: federal agencies, foundations, professional societies, and state programs, in one place.",
-  "repo_url": "https://github.com/JLib271/stemed-funding",
-  "site_url": "https://jlib271.github.io/stemed-funding/",
+  "repo_url": "https://github.com/stemedplus/stemed-funding",
+  "site_url": "https://stemedplus.github.io/stemed-funding/",
   "commons_home": "https://stemedplus.hcommons.org/",
   "related": [
     {
       "name": "STEMEd+ Deadlines",
-      "url": "https://jlib271.github.io/stemed-deadlines/",
+      "url": "https://stemedplus.github.io/stemed-deadlines/",
       "about": "every STEMEd+ deadline in one page and one calendar"
     },
     {
       "name": "STEMEd+ Conferences",
-      "url": "https://jlib271.github.io/stemed-conferences/",
+      "url": "https://stemedplus.github.io/stemed-conferences/",
       "about": "meetings, proposal deadlines, and travel support for STEM+ education"
     },
     {
       "name": "STEMEd+ Digest",
-      "url": "https://jlib271.github.io/STEMEd-Digest/",
+      "url": "https://stemedplus.github.io/STEMEd-Digest/",
       "about": "new journal articles, preprints, and dissertations"
     },
     {
       "name": "STEM+ Education Research Graduate Programs",
-      "url": "https://jlib271.github.io/stem-ed-research-programs/",
+      "url": "https://stemedplus.github.io/stem-ed-research-programs/",
       "about": "where to study STEM+ education research"
     },
     {
       "name": "STEMEd+ Professional Development",
-      "url": "https://jlib271.github.io/stemed-professional-development/",
+      "url": "https://stemedplus.github.io/stemed-professional-development/",
       "about": "national programs for K-12 teachers, informal educators, college faculty and instructors, and graduate students and postdocs"
     },
     {
       "name": "STEMEd+ Jobs",
-      "url": "https://jlib271.github.io/stemed-jobs/",
+      "url": "https://stemedplus.github.io/stemed-jobs/",
       "about": "positions in STEM+ education"
     }
   ],

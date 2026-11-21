@@ -5,7 +5,7 @@ from typing import Optional
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-USER_AGENT = "STEMEd-Funding/1.0 (+https://github.com/JLib271/stemed-funding)"
+USER_AGENT = "STEMEd-Funding/1.0 (+https://github.com/stemedplus/stemed-funding)"
 
 
 def _send(req: Request, tries: int, timeout: int) -> bytes:
